@@ -1,5 +1,5 @@
 {
-  "name": "gugu",
+  "name": "gugu-remote",
   "version": "0.0.1",
   "description": "This is a project that help user debug in mobile end.",
   "main": "lib",
