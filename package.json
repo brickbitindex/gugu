@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "This is a project that help user debug in mobile end.",
   "main": "lib",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "rm -rf lib && babel src -d lib --copy-files",
     "watch": "rm -rf lib && babel src -d lib -w --copy-files",
