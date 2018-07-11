@@ -6,11 +6,6 @@
     "transform-decorators-legacy",
     "transform-runtime",
     "transform-class-properties",
-    "transform-es2015-modules-commonjs",
-    ["module-resolver", {
-      "alias": {
-        "@const": "./lib/const"
-      }
-    }]
+    "transform-es2015-modules-commonjs"
   ]
 }
