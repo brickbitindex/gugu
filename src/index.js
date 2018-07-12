@@ -1,13 +1,9 @@
 import { getCurrentScriptSrc, getUuid } from './utils';
 import Gugu from './gugu';
-import TestConnector from './localConnector';
 
 function initGugu(uuid, queryobj, connector) {
   window.__gugu__ = new Gugu(uuid, queryobj, connector);
 }
-
-// test
-window.__gugu_connector__ = new TestConnector();
 
 // 获取当前执行的gugu的js文件的url
 const url = getCurrentScriptSrc();

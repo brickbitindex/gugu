@@ -68,10 +68,7 @@ var config = {
   devServer: {
     host: '0.0.0.0',
     historyApiFallback: {
-      index: 'remote.html',
       rewrites: [
-        { from: /\/index/, to: '/remote.html' },
-        { from: /\/remote/, to: 'remote.html' },
         { from: /\/test/, to: '/test.html' },
       ]
     },

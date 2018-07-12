@@ -31,6 +31,7 @@ export default class ConnectionPool extends BaseModule {
 
   @autobind
   handleTickChange(data) {
+    console.log(data);
     this.data = data;
   }
 }
