@@ -39,7 +39,7 @@ function encoder(obj, deep = 0, maxDeep = 5) {
 }
 
 function JSONEncoder(obj, deep = 0, maxDeep = 5) {
-  return encoder(obj, deep, maxDeep);
+  return JSON.stringify(encoder(obj, deep, maxDeep));
 }
 
 function getCurrentScriptSrc() {
@@ -94,12 +94,14 @@ function getCurrentScriptSrc() {
   return null;
 }
 
-
+/* eslint no-bitwise: 0 */
 function getUuid() {
-  const af = parseInt(Math.random() * 10, 10).toString() + parseInt(Math.random() * 10, 10).toString();
-  return `${new Date().getTime()}_${af}`;
+  return 'xxxxxxxx'.replace(/[xy]/g, (c) => {
+    const r = Math.random() * 16 | 0;
+    const v = c === 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
 }
-
 
 export {
   JSONEncoder,
