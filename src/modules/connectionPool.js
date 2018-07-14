@@ -1,5 +1,6 @@
 import autobind from 'autobind-decorator';
 import BaseModule from './base';
+import { now } from '../utils';
 
 const TICK_BLOCK = 3000;
 const DISCONNECT_BLOCK = 10000;
@@ -25,7 +26,7 @@ export default class ConnectionPool extends BaseModule {
 
   @autobind
   tick(ifCreate) {
-    const tick = new Date().getTime();
+    const tick = now();
     // 去除断开连接的端
     const connections = {};
     Object.keys(this.data.connections).filter(id => tick - this.data.connections[id] < DISCONNECT_BLOCK).forEach((id) => {

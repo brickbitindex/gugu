@@ -103,8 +103,13 @@ function getUuid() {
   });
 }
 
+function now() {
+  return new Date().getTime();
+}
+
 export {
   JSONEncoder,
   getCurrentScriptSrc,
   getUuid,
+  now,
 };

@@ -1,5 +1,5 @@
 import BaseModule from './base';
-import { JSONEncoder, getUuid } from '../utils';
+import { JSONEncoder, getUuid, now } from '../utils';
 
 const wrapNames = ['log', 'info', 'warn'];
 
@@ -24,7 +24,7 @@ export default class LogSender extends BaseModule {
 
     const data = {
       id: getUuid(),
-      createTime: new Date().getTime(),
+      createTime: now(),
       type,
       args: args.map(arg => JSONEncoder(arg)),
       // TODO: 浏览器兼容性，这里的2是因为包装了1层，重构这部分时需要注意
