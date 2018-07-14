@@ -70,15 +70,7 @@ export default class CommandReducer extends BaseModule {
   setInitData() {
     this.setSelfData({
       connectionId: this.gugu.connectionId,
-      connections: {
-        aaa: {
-          id: 'ddd',
-          pending: true,
-          success: false,
-          command: '1+',
-          response: null,
-        },
-      },
+      connections: {},
     });
   }
 
