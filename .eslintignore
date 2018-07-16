@@ -3,3 +3,5 @@ build/
 dist/
 lib/
 test_dist/
+
+polyfill.js

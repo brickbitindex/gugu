@@ -9,8 +9,8 @@ export default class BaseModule {
     }, 0);
   }
   init() {}
-  setData(key, data) {
-    return this.gugu.connector.setData(key, data);
+  setData(key, data, ...args) {
+    return this.gugu.connector.setData(key, data, ...args);
   }
   getData(key) {
     return this.gugu.connector.getData(key);
@@ -25,8 +25,8 @@ export default class BaseModule {
     this.gugu.connector.onceDataChange(key, callback);
   }
 
-  setSelfData(data) {
-    return this.setData(this.selfDataKey, data);
+  setSelfData(data, ...args) {
+    return this.setData(this.selfDataKey, data, ...args);
   }
   getSelfData() {
     return this.getData(this.selfDataKey);

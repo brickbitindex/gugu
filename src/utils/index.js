@@ -1,3 +1,5 @@
+import './polyfill';
+
 function stringEncoder(str, maxLength = 50) {
   if (str.length > maxLength) {
     const halfMaxLength = (maxLength - 3) / 2;
@@ -107,9 +109,20 @@ function now() {
   return new Date().getTime();
 }
 
+function getUrlFilename(url) {
+  // http://www.aaa.com/bbb.html?ccc=ddd#eee => ['http://www.aaa.com/bbb.html?ccc=ddd', 'eee']
+  const ssharp = url.split('#');
+  // http://www.aaa.com/bbb.html?ccc=ddd => bbb.html?ccc=ddd
+  const sslash = ssharp[0].split('/');
+  // ['bbb.html?ccc=ddd', 'eee']
+  ssharp[0] = sslash[sslash.length - 1];
+  return ssharp.join('#');
+}
+
 export {
   JSONEncoder,
   getCurrentScriptSrc,
   getUuid,
   now,
+  getUrlFilename,
 };
