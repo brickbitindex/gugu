@@ -2,9 +2,6 @@ import autobind from 'autobind-decorator';
 import BaseModule from './base';
 import { getUuid, now, getUrlFilename } from '../utils';
 
-const performance = window.webkitPerformance || window.performance;
-const hasResourceTiming = performance && typeof performance.getEntries === 'function';
-
 const winXhrProto = window.XMLHttpRequest.prototype;
 const xhrOrigSend = winXhrProto.send;
 const xhrOrigOpen = winXhrProto.open;
@@ -142,7 +139,7 @@ export default class xhrCollector extends BaseModule {
     winXhrProto.open = function open(method, url) {
       const xhr = this;
       // 判断是否需要上传
-      if (self.gugu.connector.shouldXHRupdate(url, method, xhr)) {
+      if (self.gugu.connector.shouldXHRUpdate(url, method, xhr)) {
         // 为监控的xhr增加一个标记
         xhr._guguxhr_ = getGuguXhrSign(url, method);
         xhr.addEventListener('readystatechange', () => {
