@@ -24,5 +24,12 @@
 ## xhr collector
 
 1. CORS请求的state可能永远是0，且它不触发onload事件，且它不触发readyState为4，即使浏览器开发工具中为200。
-2. 需要对connector实现一个`shouldXHRupdate`接口来判断是否需要忽略某些请求的监听。
+2. 需要对connector实现一个`shouldXHRUpdate`接口来判断是否需要忽略某些请求的监听。
 3. 获取资源尺寸是个难题，参见`getSize`
+
+## resource collector
+
+1. 若浏览器支持，其实是可以采用`PerformanceObserver`来监听变化，然而浏览器兼容性不佳。
+2. 通过`entryType === resource`可以实现entry的过滤。
+3. Chrome 60以后，多支持了一种entry叫`PerformancePaintTiming`，可能对性能分析有用。
+

@@ -2,6 +2,7 @@ import ConnectionPool from './modules/connectionPool';
 import CommandReducer from './modules/commandReducer';
 import LogSender from './modules/logSender';
 import XhrCollector from './modules/xhrCollector';
+import ResourceCollector from './modules/resourceCollector';
 import { getUuid } from './utils';
 
 export default class Gugu {
@@ -15,5 +16,6 @@ export default class Gugu {
     this.commandReducer = new CommandReducer(this);
     this.logSender = new LogSender(this);
     this.networkCollector = new XhrCollector(this);
+    this.resourceCollector = new ResourceCollector(this);
   }
 }
