@@ -3,6 +3,7 @@ import CommandReducer from './modules/commandReducer';
 import LogSender from './modules/logSender';
 import XhrCollector from './modules/xhrCollector';
 import ResourceCollector from './modules/resourceCollector';
+import InfoCollector from './modules/infoCollector';
 import { getUuid } from './utils';
 
 export default class Gugu {
@@ -17,5 +18,6 @@ export default class Gugu {
     this.logSender = new LogSender(this);
     this.networkCollector = new XhrCollector(this);
     this.resourceCollector = new ResourceCollector(this);
+    this.infoCollector = new InfoCollector(this);
   }
 }
