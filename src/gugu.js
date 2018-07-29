@@ -4,6 +4,7 @@ import LogSender from './modules/logSender';
 import XhrCollector from './modules/xhrCollector';
 import ResourceCollector from './modules/resourceCollector';
 import InfoCollector from './modules/infoCollector';
+import FeatureDetector from './modules/featureDetector';
 import { getUuid } from './utils';
 
 export default class Gugu {
@@ -19,5 +20,6 @@ export default class Gugu {
     this.networkCollector = new XhrCollector(this);
     this.resourceCollector = new ResourceCollector(this);
     this.infoCollector = new InfoCollector(this);
+    this.featureDetector = new FeatureDetector(this);
   }
 }

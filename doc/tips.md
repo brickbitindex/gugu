@@ -33,3 +33,6 @@
 2. 通过`entryType === resource`可以实现entry的过滤。
 3. Chrome 60以后，多支持了一种entry叫`PerformancePaintTiming`，可能对性能分析有用。
 
+## feature detector
+
+1. 需要将接受到的脚本包裹在`try...catch`中，并构造回调获取最终结果和错误。
