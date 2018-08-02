@@ -39,8 +39,12 @@ var config = {
         loader: "babel"
       },
       {
+        test: /\.css$/,
+        loader: 'style-loader!css!postcss'
+      },
+      {
         test: /\.scss$/,
-        loader: 'to-string-loader!css-loader!autoprefixer?{browsers:["last 2 version", "> 1%"]}!sass'
+        loader: 'to-string!css!postcss!sass'
       },
       {
         test: /\.(jpe?g|png|gif)$/i,
@@ -55,8 +59,8 @@ var config = {
         loader: 'json-loader'
       },
       {
-        test: /\.reactx$/,
-        loader: 'reactx-loader'
+        test: /\.html$/,
+        loader: 'raw'
       },
     ],
     noParse: []

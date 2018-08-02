@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import './style.css';
 
 $(document).ready(() => {
   const $input = $('#log');

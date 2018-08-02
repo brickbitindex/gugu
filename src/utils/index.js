@@ -119,10 +119,31 @@ function getUrlFilename(url) {
   return ssharp.join('#');
 }
 
+// function str2DOMElement(template) {
+//   const parser = new DOMParser();
+//   const $el = parser.parseFromString(template, 'text/xml');
+//   return $el.firstChild;
+// }
+
+function str2DOMElement(template) {
+  const frame = document.createElement('iframe');
+  frame.style.display = 'none';
+  document.body.appendChild(frame);
+  frame.contentDocument.open();
+  frame.contentDocument.write(template);
+  frame.contentDocument.close();
+  // style会被插入到head中，不知道为啥
+  if (frame.contentDocument.head.children.length > 0) {
+    return frame.contentDocument.head.firstChild;
+  }
+  return frame.contentDocument.body.firstChild;
+}
+
 export {
   JSONEncoder,
   getCurrentScriptSrc,
   getUuid,
   now,
   getUrlFilename,
+  str2DOMElement,
 };

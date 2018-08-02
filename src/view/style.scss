@@ -1,0 +1,78 @@
+@import './highlightDom.scss';
+
+#gu {
+  position: fixed;
+  top: 80%;
+  right: 3%;
+  z-index: 999;
+  height: 50px;
+  width: 50px;
+  background: rgba($color: #000, $alpha: 0.6);
+  border-radius: 10px;
+  transform: translate3d(0, 0, 0);
+  transition: all ease 0.4s;
+  overflow: hidden;
+
+  &.open {
+    top: 50%;
+    right: 50%;
+    transform: translate3d(50%, -50%, 0);
+    height: 200px;
+    width: 200px;
+
+    #guIcon {
+      top: 80%;
+    }
+
+    #guSelect {
+      left: 20%;
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+
+  &.mode-select {
+    #guIcon {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #guSelect {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+
+  .gu-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    cursor: pointer;
+    transition: all ease 0.5s;
+    color: #fff;
+
+    &-text {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate3d(-50%, 0, 0);
+      white-space: nowrap;
+      font-size: 12px;
+    }
+  }
+
+  .iconfont {
+    font-size: 42px;
+  }
+
+  &Icon {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  &Select {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
