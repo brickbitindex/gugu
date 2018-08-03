@@ -58,6 +58,7 @@ export default class View extends BaseModule {
       this.$panel.classList.remove('mode-select');
       this.mode = null;
       document.body.removeEventListener('click', this.handleClickElement, false);
+      this.handleCancelSelectElement();
     }
     e.preventDefault();
     e.stopImmediatePropagation();
@@ -103,6 +104,12 @@ export default class View extends BaseModule {
     this.setSelfData(this.wrapInfo(info));
   }
 
+  handleCancelSelectElement() {
+    this.selectedElement = null;
+    const $highlight = document.getElementById('guHighlight');
+    $highlight.remove();
+  }
+
   @autobind
   handleDataChange(data) {
     if (data.connectionId !== this.gugu.connectionId) return;
@@ -115,8 +122,14 @@ export default class View extends BaseModule {
   }
 
   receiveCommand(command, args) {
+    if (!this.selectedElement) return;
+    // 修改模型
     if (command === 'element.style' && args.length === 1) {
       this.handleChangeElementStyle(...args);
+    }
+    // 选择关联DOM
+    if (command === 'element.select' && args.length === 2) {
+      this.handleRemoteSelectElement(...args);
     }
   }
 
@@ -125,5 +138,24 @@ export default class View extends BaseModule {
     window.requestIdleCallback(() => {
       this.handleSelectElement(this.selectedElement);
     });
+  }
+
+  handleRemoteSelectElement(type, index) {
+    if (type === 'parent') {
+      let parent = this.selectedElement.parentNode;
+      for (let i = 0; i < index; i += 1) {
+        parent = parent.parentNode;
+      }
+      window.requestIdleCallback(() => {
+        this.handleSelectElement(parent);
+      });
+    } else if (type === 'brothers') {
+      const parent = this.selectedElement.parentNode;
+      const children = parent.children;
+      const $brother = children[index];
+      window.requestIdleCallback(() => {
+        this.handleSelectElement($brother);
+      });
+    }
   }
 }
