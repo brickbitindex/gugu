@@ -99,7 +99,7 @@ export default class CommandReducer extends BaseModule {
             };
           }
           this.updateSelfData({
-            [`connections.${remoteId}.pending`]: true,
+            [`connections.${remoteId}.pending`]: false,
             [`connections.${remoteId}.success`]: response.success,
             [`connections.${remoteId}.response`]: response.response,
           });

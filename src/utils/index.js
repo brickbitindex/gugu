@@ -28,6 +28,8 @@ function encoder(obj, deep = 0, maxDeep = 5) {
     ret = stringEncoder(obj);
   } else if (type === 'function') {
     ret = '[Function]';
+  } else if (obj instanceof [].constructor) {
+    ret = obj.map(m => encoder(m));
   } else if (type === 'object') {
     ret = {};
     if (deep === maxDeep) return '[Object]';
@@ -133,10 +135,18 @@ function str2DOMElement(template) {
   frame.contentDocument.write(template);
   frame.contentDocument.close();
   // style会被插入到head中，不知道为啥
+  let ret;
   if (frame.contentDocument.head.children.length > 0) {
-    return frame.contentDocument.head.firstChild;
+    ret = frame.contentDocument.head.firstChild;
+  } else {
+    ret = frame.contentDocument.body.firstChild;
   }
-  return frame.contentDocument.body.firstChild;
+  // document.body.removeChild(frame);
+  return ret;
+}
+
+function appendHTML($el, text) {
+  $el.insertAdjacentHTML('beforeend', text);
 }
 
 export {
@@ -146,4 +156,5 @@ export {
   now,
   getUrlFilename,
   str2DOMElement,
+  appendHTML,
 };

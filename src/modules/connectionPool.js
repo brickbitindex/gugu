@@ -35,6 +35,7 @@ export default class ConnectionPool extends BaseModule {
     const data = {
       tick,
       connections,
+      connectionId: this.gugu.connectionId,
     };
     if (ifCreate) {
       this.setSelfData(data);

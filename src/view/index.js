@@ -1,5 +1,5 @@
 import autobind from 'autobind-decorator';
-import { str2DOMElement } from '../utils';
+import { appendHTML } from '../utils';
 import template from './template.html';
 import styleStr from './style.scss';
 import BaseModule from '../modules/base';
@@ -16,13 +16,9 @@ export default class View extends BaseModule {
     super(gugu);
     document.addEventListener('DOMContentLoaded', () => {
       // 插入样式和dom
-      // icon
-      const icon = document.createElement('link');
-      icon.rel = 'stylesheet';
-      icon.href = '//at.alicdn.com/t/font_770790_0swojcv9pka.css';
-      document.head.appendChild(icon);
-      document.head.appendChild(str2DOMElement(`<style>${styleStr}</style>`));
-      document.body.appendChild(str2DOMElement(template));
+      appendHTML(document.head, '<link rel="stylesheet" href="//at.alicdn.com/t/font_770790_0swojcv9pka.css" />');
+      appendHTML(document.head, `<style>${styleStr}</style>`);
+      appendHTML(document.body, template);
 
       this.$panel = document.getElementById('gu');
 

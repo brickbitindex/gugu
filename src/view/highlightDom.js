@@ -1,4 +1,4 @@
-import { str2DOMElement } from '../utils';
+import { appendHTML } from '../utils';
 import template from './highlightDom.html';
 
 // jquery offset
@@ -40,10 +40,10 @@ export default function highlighDom($el) {
     return {};
   }
   if (!$highlight) {
-    $highlight = str2DOMElement(template);
-    document.body.appendChild($highlight);
+    appendHTML(document.body, template);
   }
   // 各个元素
+  $highlight = querySelector('#guHighlight');
   const $margin = querySelector('#guHighlight .gu-margin');
   const $padding = querySelector('#guHighlight .gu-padding');
   const $content = querySelector('#guHighlight .gu-content');
