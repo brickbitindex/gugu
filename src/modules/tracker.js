@@ -24,7 +24,7 @@ export default class Tracker extends BaseModule {
     window.addEventListener('scroll', this.handleScroll);
     window.addEventListener('focus', this.handleFocus, true);
     window.addEventListener('blur', this.handleBlur, true);
-    window.addEventListener('keypress', this.handleKeypress);
+    window.addEventListener('input', this.handleInput);
     this.startPos = [window.scrollX, window.screenY];
     this.startAt = now();
   }
@@ -38,7 +38,7 @@ export default class Tracker extends BaseModule {
     window.removeEventListener('scroll', this.handleScroll);
     window.removeEventListener('focus', this.handleFocus, true);
     window.removeEventListener('blur', this.handleBlur, true);
-    window.removeEventListener('keypress', this.handleKeypress);
+    window.removeEventListener('input', this.handleInput);
     const payload = {
       events: this.events,
       startAt: this.startAt,
@@ -107,8 +107,20 @@ export default class Tracker extends BaseModule {
     }
   }
   @autobind
-  handleKeypress(e) {
-    const info = this.getBaseInfo('keypress', e, e.charCode);
+  handleInput(e) {
+    let data;
+    if (e.data) {
+      data = ['insert', e.data];
+    } else {
+      // delete or paste
+      const type = e.inputType.toLowerCase();
+      if (type.indexOf('delete') > -1) {
+        data = ['delete', e.target.value];
+      } else if (type.indexOf('paste') > -1) {
+        data = ['paste', e.target.value];
+      }
+    }
+    const info = this.getBaseInfo('input', e, data);
     if (info) {
       this.events.push(info);
     }

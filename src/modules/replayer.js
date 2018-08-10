@@ -33,13 +33,14 @@ function triggerTouchEvent(node, eventType) {
   }
 }
 
-function triggerKeypressEvent(node, keyCode) {
-  const e = document.createEvent('HTMLEvents');
-  e.keyCode = keyCode;
-  e.initEvent('keyup', true, true);
-  node.dispatchEvent(e);
-  if (node.value !== undefined) {
-    node.value = node.value + String.fromCharCode(keyCode);
+function triggerInputEvent(node, data) {
+  const type = data[0];
+  if (type === 'insert') {
+    node.value = node.value + data[1];
+  } else if (type === 'delete') {
+    node.value = data[1];
+  } else if (type === 'paste') {
+    node.value = data[1];
   }
 }
 
@@ -119,8 +120,8 @@ export default class Replayer extends BaseModule {
         case 'blur':
           element.blur();
           break;
-        case 'keypress':
-          triggerKeypressEvent(element, event.data);
+        case 'input':
+          triggerInputEvent(element, event.data);
           break;
         default:
           break;

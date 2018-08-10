@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "1.15.0",
-  "hash": "6f49b0b0c36954e7187d",
-  "time": 4017,
+  "hash": "b40063383c9f0c93b7f0",
+  "time": 4006,
   "publicPath": "",
   "assetsByChunkName": {
     "gugu": "gugu.min.js"
@@ -11,7 +11,7 @@
   "assets": [
     {
       "name": "gugu.min.js",
-      "size": 79583,
+      "size": 79573,
       "chunks": [
         0
       ],
@@ -28,14 +28,14 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 177761,
+      "size": 177750,
       "names": [
         "gugu"
       ],
       "files": [
         "gugu.min.js"
       ],
-      "hash": "79869645a1978b795bd0",
+      "hash": "bbff46526aaa6ee03fe2",
       "parents": [],
       "modules": [
         {
@@ -55,8 +55,8 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 25,
-            "building": 472
+            "factory": 24,
+            "building": 458
           },
           "failed": false,
           "errors": 0,
@@ -81,8 +81,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/json/stringify.js",
           "profile": {
-            "factory": 27,
-            "building": 6
+            "factory": 30,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -261,8 +261,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 621,
-            "building": 224
+            "factory": 715,
+            "building": 164
           },
           "failed": false,
           "errors": 0,
@@ -396,9 +396,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 670,
-            "building": 43,
-            "dependencies": 84
+            "factory": 696,
+            "building": 48,
+            "dependencies": 78
           },
           "failed": false,
           "errors": 0,
@@ -523,8 +523,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
           "profile": {
-            "factory": 35,
-            "building": 20,
+            "factory": 33,
+            "building": 17,
             "dependencies": 0
           },
           "failed": false,
@@ -650,8 +650,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 641,
-            "building": 68,
+            "factory": 667,
+            "building": 69,
             "dependencies": 0
           },
           "failed": false,
@@ -768,8 +768,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 669,
-            "building": 44
+            "factory": 695,
+            "building": 45
           },
           "failed": false,
           "errors": 0,
@@ -885,9 +885,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 671,
-            "building": 46,
-            "dependencies": 80
+            "factory": 697,
+            "building": 45,
+            "dependencies": 81
           },
           "failed": false,
           "errors": 0,
@@ -1003,9 +1003,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 670,
-            "building": 45,
-            "dependencies": 82
+            "factory": 696,
+            "building": 43,
+            "dependencies": 84
           },
           "failed": false,
           "errors": 0,
@@ -1121,8 +1121,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 788,
-            "building": 14
+            "factory": 811,
+            "building": 18
           },
           "failed": false,
           "errors": 0,
@@ -1229,8 +1229,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/index.js",
           "profile": {
-            "factory": 30,
-            "building": 117
+            "factory": 31,
+            "building": 120
           },
           "failed": false,
           "errors": 0,
@@ -1337,8 +1337,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 668,
-            "building": 46
+            "factory": 695,
+            "building": 43
           },
           "failed": false,
           "errors": 0,
@@ -1443,11 +1443,11 @@
             0
           ],
           "assets": [],
-          "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.set-prototype-of.js",
+          "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.create.js",
           "profile": {
-            "factory": 36,
-            "building": 11,
-            "dependencies": 1
+            "factory": 32,
+            "building": 18,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -1545,8 +1545,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
           "profile": {
-            "factory": 34,
-            "building": 20
+            "factory": 33,
+            "building": 16
           },
           "failed": false,
           "errors": 0,
@@ -1644,9 +1644,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
-            "building": 34,
-            "dependencies": 7
+            "factory": 21,
+            "building": 35,
+            "dependencies": 8
           },
           "failed": false,
           "errors": 0,
@@ -1745,7 +1745,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/core.get-iterator.js",
           "profile": {
             "factory": 31,
-            "building": 23,
+            "building": 21,
             "dependencies": 0
           },
           "failed": false,
@@ -1835,8 +1835,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 21,
-            "building": 28,
+            "factory": 20,
+            "building": 27,
             "dependencies": 0
           },
           "failed": false,
@@ -1926,7 +1926,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 21,
+            "factory": 20,
             "building": 27
           },
           "failed": false,
@@ -2016,8 +2016,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.get-own-property-descriptor.js",
           "profile": {
-            "factory": 34,
-            "building": 20,
+            "factory": 30,
+            "building": 22,
             "dependencies": 22
           },
           "failed": false,
@@ -2107,8 +2107,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 21,
-            "building": 30
+            "factory": 20,
+            "building": 28
           },
           "failed": false,
           "errors": 0,
@@ -2188,8 +2188,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
           "profile": {
-            "factory": 34,
-            "building": 20,
+            "factory": 33,
+            "building": 17,
             "dependencies": 0
           },
           "failed": false,
@@ -2270,7 +2270,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
+            "factory": 21,
             "building": 32
           },
           "failed": false,
@@ -2351,8 +2351,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
           "profile": {
-            "factory": 34,
-            "building": 20
+            "factory": 33,
+            "building": 17
           },
           "failed": false,
           "errors": 0,
@@ -2432,8 +2432,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
           "profile": {
-            "factory": 556,
-            "building": 225
+            "factory": 641,
+            "building": 166
           },
           "failed": false,
           "errors": 0,
@@ -2504,8 +2504,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.keys.js",
           "profile": {
-            "factory": 35,
-            "building": 10
+            "factory": 34,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -2576,7 +2576,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
+            "factory": 21,
             "building": 33
           },
           "failed": false,
@@ -2648,8 +2648,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.keys.js",
           "profile": {
-            "factory": 35,
-            "building": 6
+            "factory": 34,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -2720,8 +2720,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
           "profile": {
-            "factory": 556,
-            "building": 224
+            "factory": 641,
+            "building": 165
           },
           "failed": false,
           "errors": 0,
@@ -2846,8 +2846,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
-            "building": 35
+            "factory": 21,
+            "building": 36
           },
           "failed": false,
           "errors": 0,
@@ -2910,7 +2910,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
             "factory": 21,
-            "building": 32
+            "building": 28
           },
           "failed": false,
           "errors": 0,
@@ -2972,8 +2972,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/iterator.js",
           "profile": {
-            "factory": 11,
-            "building": 7
+            "factory": 19,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -3035,8 +3035,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_is-array.js",
           "profile": {
-            "factory": 9,
-            "building": 6
+            "factory": 13,
+            "building": 5
           },
           "failed": false,
           "errors": 0,
@@ -3089,7 +3089,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
           "profile": {
-            "factory": 29,
+            "factory": 28,
             "building": 24
           },
           "failed": false,
@@ -3143,7 +3143,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_to-object.js",
           "profile": {
-            "factory": 37,
+            "factory": 38,
             "building": 3
           },
           "failed": false,
@@ -3197,7 +3197,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-keys.js",
           "profile": {
-            "factory": 34,
+            "factory": 38,
             "building": 3
           },
           "failed": false,
@@ -3251,9 +3251,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.create.js",
           "profile": {
-            "factory": 35,
-            "building": 13,
-            "dependencies": 30
+            "factory": 32,
+            "building": 19,
+            "dependencies": 25
           },
           "failed": false,
           "errors": 0,
@@ -3306,9 +3306,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.get-own-property-descriptor.js",
           "profile": {
-            "factory": 34,
-            "building": 21,
-            "dependencies": 0
+            "factory": 30,
+            "building": 23,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -3361,8 +3361,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
-            "building": 35
+            "factory": 21,
+            "building": 36
           },
           "failed": false,
           "errors": 0,
@@ -3415,9 +3415,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.keys.js",
           "profile": {
-            "factory": 36,
-            "building": 10,
-            "dependencies": 0
+            "factory": 35,
+            "building": 6,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -3470,9 +3470,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 21,
-            "building": 31,
-            "dependencies": 1
+            "factory": 20,
+            "building": 29,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -3525,8 +3525,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
           "profile": {
-            "factory": 30,
-            "building": 4,
+            "factory": 25,
+            "building": 5,
             "dependencies": 0
           },
           "failed": false,
@@ -3580,8 +3580,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 21,
-            "building": 30,
+            "factory": 20,
+            "building": 29,
             "dependencies": 0
           },
           "failed": false,
@@ -3635,8 +3635,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_string-at.js",
           "profile": {
-            "factory": 28,
-            "building": 5
+            "factory": 37,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -3689,7 +3689,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
+            "factory": 21,
             "building": 33,
             "dependencies": 0
           },
@@ -3742,10 +3742,10 @@
             0
           ],
           "assets": [],
-          "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es7.symbol.async-iterator.js",
+          "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 28,
-            "building": 27,
+            "factory": 21,
+            "building": 29,
             "dependencies": 0
           },
           "failed": false,
@@ -3799,9 +3799,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/iterator.js",
           "profile": {
-            "factory": 12,
-            "building": 9,
-            "dependencies": 33
+            "factory": 19,
+            "building": 6,
+            "dependencies": 32
           },
           "failed": false,
           "errors": 0,
@@ -3854,8 +3854,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/iterator.js",
           "profile": {
-            "factory": 12,
-            "building": 7
+            "factory": 19,
+            "building": 5
           },
           "failed": false,
           "errors": 0,
@@ -3908,8 +3908,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
           "profile": {
-            "factory": 556,
-            "building": 225
+            "factory": 641,
+            "building": 166
           },
           "failed": false,
           "errors": 0,
@@ -3953,8 +3953,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/defineProperty.js",
           "profile": {
-            "factory": 85,
-            "building": 268
+            "factory": 81,
+            "building": 254
           },
           "failed": false,
           "errors": 0,
@@ -3998,8 +3998,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
           "profile": {
-            "factory": 669,
-            "building": 43
+            "factory": 695,
+            "building": 46
           },
           "failed": false,
           "errors": 0,
@@ -4044,7 +4044,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/core.is-iterable.js",
           "profile": {
             "factory": 16,
-            "building": 35,
+            "building": 36,
             "dependencies": 6
           },
           "failed": false,
@@ -4089,8 +4089,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
           "profile": {
-            "factory": 30,
-            "building": 8,
+            "factory": 26,
+            "building": 6,
             "dependencies": 0
           },
           "failed": false,
@@ -4227,9 +4227,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.string.iterator.js",
           "profile": {
-            "factory": 35,
-            "building": 17,
-            "dependencies": 1
+            "factory": 34,
+            "building": 14,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -4273,8 +4273,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
-            "building": 34,
+            "factory": 21,
+            "building": 36,
             "dependencies": 6
           },
           "failed": false,
@@ -4319,9 +4319,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.get-prototype-of.js",
           "profile": {
-            "factory": 33,
+            "factory": 31,
             "building": 22,
-            "dependencies": 20
+            "dependencies": 22
           },
           "failed": false,
           "errors": 0,
@@ -4365,7 +4365,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-keys.js",
           "profile": {
-            "factory": 34,
+            "factory": 38,
             "building": 3,
             "dependencies": 0
           },
@@ -4411,8 +4411,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 21,
-            "building": 28,
+            "factory": 20,
+            "building": 27,
             "dependencies": 0
           },
           "failed": false,
@@ -4457,9 +4457,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
           "profile": {
-            "factory": 30,
-            "building": 25,
-            "dependencies": 16
+            "factory": 29,
+            "building": 24,
+            "dependencies": 19
           },
           "failed": false,
           "errors": 0,
@@ -4504,7 +4504,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/core.get-iterator.js",
           "profile": {
             "factory": 31,
-            "building": 24,
+            "building": 21,
             "dependencies": 0
           },
           "failed": false,
@@ -4549,8 +4549,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/tracker.js",
           "profile": {
-            "factory": 231,
-            "building": 111
+            "factory": 252,
+            "building": 109
           },
           "failed": false,
           "errors": 0,
@@ -4595,8 +4595,8 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/index.js",
           "profile": {
             "factory": 30,
-            "building": 51,
-            "dependencies": 3
+            "building": 47,
+            "dependencies": 4
           },
           "failed": false,
           "errors": 0,
@@ -4631,9 +4631,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
+            "factory": 80,
             "building": 93,
-            "dependencies": 463
+            "dependencies": 550
           },
           "failed": false,
           "errors": 0,
@@ -4668,9 +4668,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 71,
-            "building": 314,
-            "dependencies": 568
+            "factory": 80,
+            "building": 159,
+            "dependencies": 746
           },
           "failed": false,
           "errors": 0,
@@ -4705,9 +4705,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
-            "building": 462,
-            "dependencies": 419
+            "factory": 81,
+            "building": 460,
+            "dependencies": 444
           },
           "failed": false,
           "errors": 0,
@@ -4742,9 +4742,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
-            "building": 396,
-            "dependencies": 485
+            "factory": 81,
+            "building": 402,
+            "dependencies": 502
           },
           "failed": false,
           "errors": 0,
@@ -4779,9 +4779,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
-            "building": 142,
-            "dependencies": 622
+            "factory": 81,
+            "building": 197,
+            "dependencies": 592
           },
           "failed": false,
           "errors": 0,
@@ -4805,7 +4805,7 @@
           "name": "./src/modules/replayer.js",
           "index": 126,
           "index2": 124,
-          "size": 7196,
+          "size": 7195,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4816,9 +4816,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
-            "building": 628,
-            "dependencies": 254
+            "factory": 81,
+            "building": 630,
+            "dependencies": 274
           },
           "failed": false,
           "errors": 0,
@@ -4834,7 +4834,7 @@
               "loc": "44:16-45"
             }
           ],
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class; /* eslint operator-assignment: 0 */\n/* eslint no-param-reassign: 0 */\n\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nfunction triggerMouseEvent(node, eventType) {\n  var e = document.createEvent('MouseEvents');\n  e.initEvent(eventType, true, true);\n  node.dispatchEvent(e);\n  if (eventType === 'mousedown') {\n    node.click();\n  }\n}\n\nfunction triggerTouchEvent(node, eventType) {\n  var e = void 0;\n  try {\n    e = document.createEvent('TouchEvent');\n    e.initTouchEvent(eventType, true, true);\n  } catch (err) {\n    try {\n      e = document.createEvent('UIEvent');\n      e.initUIEvent(eventType, true, true);\n    } catch (err2) {\n      e = document.createEvent('Event');\n      e.initEvent(eventType, true, true);\n    }\n  }\n  node.dispatchEvent(e);\n  if (eventType === 'touchend') {\n    node.click();\n  }\n}\n\nfunction triggerKeypressEvent(node, keyCode) {\n  var e = document.createEvent('HTMLEvents');\n  e.keyCode = keyCode;\n  e.initEvent('keyup', true, true);\n  node.dispatchEvent(e);\n  if (node.value !== undefined) {\n    node.value = node.value + String.fromCharCode(keyCode);\n  }\n}\n\nvar Replayer = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Replayer, _BaseModule);\n\n  function Replayer() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Replayer);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Replayer.__proto__ || (0, _getPrototypeOf2.default)(Replayer)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'replay', _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Replayer, [{\n    key: 'init',\n    value: function init() {\n      this.data = {};\n      this.setInitData();\n    }\n  }, {\n    key: 'setInitData',\n    value: function setInitData() {\n      var _this2 = this;\n\n      this.setSelfData({}).then(function () {\n        _this2.onSelfDataChange(_this2.handleDataChange);\n      });\n    }\n  }, {\n    key: 'parseCode',\n    value: function parseCode(record) {\n      try {\n        if (!record.startAt || !record.endAt || !record.startPos || !record.events) return null;\n        var timeline = [];\n        record.events.forEach(function (event, i) {\n          var offset = 0;\n          if (i > 0) {\n            offset = event.time - record.events[i - 1].time;\n          }\n          timeline.push({\n            offset: offset,\n            type: event.type,\n            data: event.data,\n            path: event.path\n          });\n        });\n        return timeline;\n      } catch (e) {\n        return null;\n      }\n    }\n  }, {\n    key: 'handleDataChange',\n    value: function handleDataChange(data) {\n      var timeline = this.parseCode(data);\n      if (timeline) {\n        this.replay(timeline);\n      }\n    }\n  }, {\n    key: 'replay',\n    value: function replay(timeline) {\n      if (timeline.length === 0) return;\n      this.replayEvent(timeline, 0);\n    }\n  }, {\n    key: 'replayEvent',\n    value: function replayEvent(events, i) {\n      var _this3 = this;\n\n      var event = events[i];\n      setTimeout(function () {\n        var element = void 0;\n        if (event.path && event.path.length > 0) {\n          element = xpath.toNode(event.path, document);\n        } else {\n          element = window;\n        }\n        if (!element) return;\n        switch (event.type) {\n          case 'mousedown':\n            triggerMouseEvent(element, 'mousedown');\n            break;\n          case 'mouseup':\n            triggerMouseEvent(element, 'mouseup');\n            break;\n          case 'touchstart':\n            triggerTouchEvent(element, 'touchstart');\n            break;\n          case 'touchend':\n            triggerTouchEvent(element, 'touchend');\n            break;\n          case 'scroll':\n            window.scrollTo(event.data[0], event.data[1]);\n            break;\n          case 'focus':\n            element.focus();\n            break;\n          case 'blur':\n            element.blur();\n            break;\n          case 'keypress':\n            triggerKeypressEvent(element, event.data);\n            break;\n          default:\n            break;\n        }\n\n        if (i < events.length - 1) {\n          _this3.replayEvent(events, i + 1);\n        } else {\n          alert('finish');\n        }\n      }, event.offset);\n    }\n  }]);\n  return Replayer;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleDataChange', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleDataChange'), _class.prototype)), _class);\nexports.default = Replayer;"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class; /* eslint operator-assignment: 0 */\n/* eslint no-param-reassign: 0 */\n\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nfunction triggerMouseEvent(node, eventType) {\n  var e = document.createEvent('MouseEvents');\n  e.initEvent(eventType, true, true);\n  node.dispatchEvent(e);\n  if (eventType === 'mousedown') {\n    node.click();\n  }\n}\n\nfunction triggerTouchEvent(node, eventType) {\n  var e = void 0;\n  try {\n    e = document.createEvent('TouchEvent');\n    e.initTouchEvent(eventType, true, true);\n  } catch (err) {\n    try {\n      e = document.createEvent('UIEvent');\n      e.initUIEvent(eventType, true, true);\n    } catch (err2) {\n      e = document.createEvent('Event');\n      e.initEvent(eventType, true, true);\n    }\n  }\n  node.dispatchEvent(e);\n  if (eventType === 'touchend') {\n    node.click();\n  }\n}\n\nfunction triggerKeypressEvent(node, keyCode) {\n  var e = document.createEvent('HTMLEvents');\n  e.keyCode = keyCode;\n  e.initEvent('keyup', true, true);\n  node.dispatchEvent(e);\n  if (node.value !== undefined) {\n    node.value = node.value + String.fromCharCode(keyCode);\n  }\n}\n\nvar Replayer = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Replayer, _BaseModule);\n\n  function Replayer() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Replayer);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Replayer.__proto__ || (0, _getPrototypeOf2.default)(Replayer)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'replay', _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Replayer, [{\n    key: 'init',\n    value: function init() {\n      this.data = {};\n      this.setInitData();\n    }\n  }, {\n    key: 'setInitData',\n    value: function setInitData() {\n      var _this2 = this;\n\n      this.setSelfData({}).then(function () {\n        _this2.onSelfDataChange(_this2.handleDataChange);\n      });\n    }\n  }, {\n    key: 'parseCode',\n    value: function parseCode(record) {\n      try {\n        if (!record.startAt || !record.endAt || !record.startPos || !record.events) return null;\n        var timeline = [];\n        record.events.forEach(function (event, i) {\n          var offset = 0;\n          if (i > 0) {\n            offset = event.time - record.events[i - 1].time;\n          }\n          timeline.push({\n            offset: offset,\n            type: event.type,\n            data: event.data,\n            path: event.path\n          });\n        });\n        return timeline;\n      } catch (e) {\n        return null;\n      }\n    }\n  }, {\n    key: 'handleDataChange',\n    value: function handleDataChange(data) {\n      var timeline = this.parseCode(data);\n      if (timeline) {\n        this.replay(timeline);\n      }\n    }\n  }, {\n    key: 'replay',\n    value: function replay(timeline) {\n      if (timeline.length === 0) return;\n      this.replayEvent(timeline, 0);\n    }\n  }, {\n    key: 'replayEvent',\n    value: function replayEvent(events, i) {\n      var _this3 = this;\n\n      var event = events[i];\n      setTimeout(function () {\n        var element = void 0;\n        if (event.path && event.path.length > 0) {\n          element = xpath.toNode(event.path, document);\n        } else {\n          element = window;\n        }\n        if (!element) return;\n        switch (event.type) {\n          case 'mousedown':\n            triggerMouseEvent(element, 'mousedown');\n            break;\n          case 'mouseup':\n            triggerMouseEvent(element, 'mouseup');\n            break;\n          case 'touchstart':\n            triggerTouchEvent(element, 'touchstart');\n            break;\n          case 'touchend':\n            triggerTouchEvent(element, 'touchend');\n            break;\n          case 'scroll':\n            window.scrollTo(event.data[0], event.data[1]);\n            break;\n          case 'focus':\n            element.focus();\n            break;\n          case 'blur':\n            element.blur();\n            break;\n          case 'keydown':\n            triggerKeypressEvent(element, event.data);\n            break;\n          default:\n            break;\n        }\n\n        if (i < events.length - 1) {\n          _this3.replayEvent(events, i + 1);\n        } else {\n          alert('finish');\n        }\n      }, event.offset);\n    }\n  }]);\n  return Replayer;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleDataChange', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleDataChange'), _class.prototype)), _class);\nexports.default = Replayer;"
         },
         {
           "id": 70,
@@ -4853,9 +4853,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
-            "building": 362,
-            "dependencies": 519
+            "factory": 81,
+            "building": 370,
+            "dependencies": 534
           },
           "failed": false,
           "errors": 0,
@@ -4879,7 +4879,7 @@
           "name": "./src/modules/tracker.js",
           "index": 121,
           "index2": 123,
-          "size": 8969,
+          "size": 8959,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4890,9 +4890,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
-            "building": 546,
-            "dependencies": 336
+            "factory": 81,
+            "building": 550,
+            "dependencies": 354
           },
           "failed": false,
           "errors": 0,
@@ -4908,7 +4908,7 @@
               "loc": "40:15-43"
             }
           ],
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class;\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nvar performance = window.webkitPerformance || window.performance;\nvar start = new Date();\nvar now = performance && performance.now ? function () {\n  return performance.now();\n} : function () {\n  return new Date() - start;\n};\n\nvar Tracker = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Tracker, _BaseModule);\n\n  function Tracker() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Tracker);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Tracker.__proto__ || (0, _getPrototypeOf2.default)(Tracker)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'records', _this.events = [], _this.startAt = -1, _this.startPos = [], _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Tracker, [{\n    key: 'init',\n    value: function init() {}\n  }, {\n    key: 'start',\n    value: function start() {\n      this.events = [];\n      window.addEventListener('mousedown', this.handleMouseDown);\n      window.addEventListener('mouseup', this.handleMouseUp);\n      window.addEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.addEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.addEventListener('scroll', this.handleScroll);\n      window.addEventListener('focus', this.handleFocus, true);\n      window.addEventListener('blur', this.handleBlur, true);\n      window.addEventListener('keypress', this.handleKeypress);\n      this.startPos = [window.scrollX, window.screenY];\n      this.startAt = now();\n    }\n  }, {\n    key: 'end',\n    value: function end() {\n      this.endAt = now();\n      window.removeEventListener('mousedown', this.handleMouseDown);\n      window.removeEventListener('mouseup', this.handleMouseUp);\n      window.removeEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.removeEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.removeEventListener('scroll', this.handleScroll);\n      window.removeEventListener('focus', this.handleFocus, true);\n      window.removeEventListener('blur', this.handleBlur, true);\n      window.removeEventListener('keypress', this.handleKeypress);\n      var payload = {\n        events: this.events,\n        startAt: this.startAt,\n        endAt: this.endAt,\n        startPos: this.startPos,\n        connectionId: this.gugu.connectionId\n      };\n      this.setSelfData(payload);\n    }\n  }, {\n    key: 'handleMouseDown',\n    value: function handleMouseDown(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mousedown', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleMouseUp',\n    value: function handleMouseUp(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mouseup', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchStart',\n    value: function handleTouchStart(e) {\n      this.touch = true;\n      var info = this.getBaseInfo('touchstart', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchEnd',\n    value: function handleTouchEnd(e) {\n      var info = this.getBaseInfo('touchend', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleScroll',\n    value: function handleScroll(e) {\n      // const _now = now();\n      // if (_now - this.lastScroll < 200) return;\n      // this.lastScroll = _now;\n      var info = this.getBaseInfo('scroll', e, [window.scrollX, window.scrollY]);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleFocus',\n    value: function handleFocus(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('focus', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleBlur',\n    value: function handleBlur(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('blur', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleKeypress',\n    value: function handleKeypress(e) {\n      var info = this.getBaseInfo('keypress', e, e.charCode);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'getBaseInfo',\n    value: function getBaseInfo(type, e, data) {\n      var target = e.target;\n      var path = xpath.fromNode(target);\n      // check gugu element\n      var gu = xpath.fromNode(document.getElementById('gu'));\n      if (path.startsWith(gu)) return null;\n      var ret = {\n        type: type,\n        path: path,\n        time: now()\n      };\n      if (data) ret.data = data;\n      return ret;\n    }\n  }]);\n  return Tracker;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleMouseDown', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseDown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleMouseUp', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseUp'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchStart', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchStart'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchEnd', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchEnd'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleScroll', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleScroll'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleFocus', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleFocus'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleBlur', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleKeypress', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleKeypress'), _class.prototype)), _class);\nexports.default = Tracker;"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class;\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nvar performance = window.webkitPerformance || window.performance;\nvar start = new Date();\nvar now = performance && performance.now ? function () {\n  return performance.now();\n} : function () {\n  return new Date() - start;\n};\n\nvar Tracker = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Tracker, _BaseModule);\n\n  function Tracker() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Tracker);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Tracker.__proto__ || (0, _getPrototypeOf2.default)(Tracker)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'records', _this.events = [], _this.startAt = -1, _this.startPos = [], _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Tracker, [{\n    key: 'init',\n    value: function init() {}\n  }, {\n    key: 'start',\n    value: function start() {\n      this.events = [];\n      window.addEventListener('mousedown', this.handleMouseDown);\n      window.addEventListener('mouseup', this.handleMouseUp);\n      window.addEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.addEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.addEventListener('scroll', this.handleScroll);\n      window.addEventListener('focus', this.handleFocus, true);\n      window.addEventListener('blur', this.handleBlur, true);\n      window.addEventListener('keydown', this.handleKeydown);\n      this.startPos = [window.scrollX, window.screenY];\n      this.startAt = now();\n    }\n  }, {\n    key: 'end',\n    value: function end() {\n      this.endAt = now();\n      window.removeEventListener('mousedown', this.handleMouseDown);\n      window.removeEventListener('mouseup', this.handleMouseUp);\n      window.removeEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.removeEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.removeEventListener('scroll', this.handleScroll);\n      window.removeEventListener('focus', this.handleFocus, true);\n      window.removeEventListener('blur', this.handleBlur, true);\n      window.removeEventListener('keydown', this.handleKeydown);\n      var payload = {\n        events: this.events,\n        startAt: this.startAt,\n        endAt: this.endAt,\n        startPos: this.startPos,\n        connectionId: this.gugu.connectionId\n      };\n      this.setSelfData(payload);\n    }\n  }, {\n    key: 'handleMouseDown',\n    value: function handleMouseDown(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mousedown', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleMouseUp',\n    value: function handleMouseUp(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mouseup', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchStart',\n    value: function handleTouchStart(e) {\n      this.touch = true;\n      var info = this.getBaseInfo('touchstart', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchEnd',\n    value: function handleTouchEnd(e) {\n      var info = this.getBaseInfo('touchend', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleScroll',\n    value: function handleScroll(e) {\n      // const _now = now();\n      // if (_now - this.lastScroll < 200) return;\n      // this.lastScroll = _now;\n      var info = this.getBaseInfo('scroll', e, [window.scrollX, window.scrollY]);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleFocus',\n    value: function handleFocus(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('focus', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleBlur',\n    value: function handleBlur(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('blur', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleKeydown',\n    value: function handleKeydown(e) {\n      var info = this.getBaseInfo('keydown', e, e.keyCode);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'getBaseInfo',\n    value: function getBaseInfo(type, e, data) {\n      var target = e.target;\n      var path = xpath.fromNode(target);\n      // check gugu element\n      var gu = xpath.fromNode(document.getElementById('gu'));\n      if (path.startsWith(gu)) return null;\n      var ret = {\n        type: type,\n        path: path,\n        time: now()\n      };\n      if (data) ret.data = data;\n      return ret;\n    }\n  }]);\n  return Tracker;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleMouseDown', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseDown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleMouseUp', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseUp'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchStart', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchStart'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchEnd', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchEnd'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleScroll', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleScroll'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleFocus', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleFocus'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleBlur', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleKeydown', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleKeydown'), _class.prototype)), _class);\nexports.default = Tracker;"
         },
         {
           "id": 72,
@@ -4927,9 +4927,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 72,
-            "building": 265,
-            "dependencies": 616
+            "factory": 81,
+            "building": 313,
+            "dependencies": 591
           },
           "failed": false,
           "errors": 0,
@@ -4965,7 +4965,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
           "profile": {
             "factory": 9,
-            "building": 727
+            "building": 750
           },
           "failed": false,
           "errors": 0,
@@ -5001,7 +5001,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
           "profile": {
             "factory": 57,
-            "building": 85,
+            "building": 84,
             "dependencies": 0
           },
           "failed": false,
@@ -5037,9 +5037,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
           "profile": {
-            "factory": 74,
-            "building": 710,
-            "dependencies": 170
+            "factory": 83,
+            "building": 735,
+            "dependencies": 167
           },
           "failed": false,
           "errors": 0,
@@ -5074,9 +5074,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
           "profile": {
-            "factory": 57,
-            "building": 108,
-            "dependencies": 0
+            "factory": 58,
+            "building": 105,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5111,8 +5111,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/toConsumableArray.js",
           "profile": {
-            "factory": 9,
-            "building": 267
+            "factory": 8,
+            "building": 250
           },
           "failed": false,
           "errors": 0,
@@ -5148,7 +5148,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/slicedToArray.js",
           "profile": {
             "factory": 75,
-            "building": 266
+            "building": 248
           },
           "failed": false,
           "errors": 0,
@@ -5184,7 +5184,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/slicedToArray.js",
           "profile": {
             "factory": 75,
-            "building": 269
+            "building": 252
           },
           "failed": false,
           "errors": 0,
@@ -5219,8 +5219,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/extends.js",
           "profile": {
-            "factory": 78,
-            "building": 265
+            "factory": 77,
+            "building": 249
           },
           "failed": false,
           "errors": 0,
@@ -5256,7 +5256,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/inherits.js",
           "profile": {
             "factory": 80,
-            "building": 264
+            "building": 248
           },
           "failed": false,
           "errors": 0,
@@ -5292,7 +5292,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/inherits.js",
           "profile": {
             "factory": 80,
-            "building": 263
+            "building": 247
           },
           "failed": false,
           "errors": 0,
@@ -5328,7 +5328,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/typeof.js",
           "profile": {
             "factory": 115,
-            "building": 263
+            "building": 245
           },
           "failed": false,
           "errors": 0,
@@ -5363,8 +5363,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/typeof.js",
           "profile": {
-            "factory": 116,
-            "building": 265
+            "factory": 115,
+            "building": 246
           },
           "failed": false,
           "errors": 0,
@@ -5399,8 +5399,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/xhrCollector.js",
           "profile": {
-            "factory": 500,
-            "building": 47
+            "factory": 477,
+            "building": 48
           },
           "failed": false,
           "errors": 0,
@@ -5435,7 +5435,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/xhrCollector.js",
           "profile": {
-            "factory": 500,
+            "factory": 477,
             "building": 50
           },
           "failed": false,
@@ -5471,7 +5471,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
           "profile": {
-            "factory": 57,
+            "factory": 58,
             "building": 112
           },
           "failed": false,
@@ -5507,9 +5507,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/array/from.js",
           "profile": {
-            "factory": 49,
-            "building": 27,
-            "dependencies": 9
+            "factory": 46,
+            "building": 26,
+            "dependencies": 16
           },
           "failed": false,
           "errors": 0,
@@ -5544,9 +5544,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/get-iterator.js",
           "profile": {
-            "factory": 50,
-            "building": 26,
-            "dependencies": 10
+            "factory": 48,
+            "building": 25,
+            "dependencies": 17
           },
           "failed": false,
           "errors": 0,
@@ -5581,9 +5581,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/is-iterable.js",
           "profile": {
-            "factory": 47,
-            "building": 28,
-            "dependencies": 8
+            "factory": 48,
+            "building": 23,
+            "dependencies": 15
           },
           "failed": false,
           "errors": 0,
@@ -5618,8 +5618,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/json/stringify.js",
           "profile": {
-            "factory": 383,
-            "building": 55
+            "factory": 366,
+            "building": 56
           },
           "failed": false,
           "errors": 0,
@@ -5654,9 +5654,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/assign.js",
           "profile": {
-            "factory": 50,
+            "factory": 47,
             "building": 26,
-            "dependencies": 10
+            "dependencies": 16
           },
           "failed": false,
           "errors": 0,
@@ -5691,9 +5691,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/create.js",
           "profile": {
-            "factory": 50,
-            "building": 26,
-            "dependencies": 11
+            "factory": 49,
+            "building": 24,
+            "dependencies": 18
           },
           "failed": false,
           "errors": 0,
@@ -5728,9 +5728,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/define-property.js",
           "profile": {
-            "factory": 48,
-            "building": 27,
-            "dependencies": 8
+            "factory": 47,
+            "building": 32,
+            "dependencies": 7
           },
           "failed": false,
           "errors": 0,
@@ -5765,9 +5765,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/get-own-property-descriptor.js",
           "profile": {
-            "factory": 351,
-            "building": 56,
-            "dependencies": 27
+            "factory": 336,
+            "building": 58,
+            "dependencies": 28
           },
           "failed": false,
           "errors": 0,
@@ -5802,9 +5802,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/get-prototype-of.js",
           "profile": {
-            "factory": 352,
-            "building": 57,
-            "dependencies": 26
+            "factory": 334,
+            "building": 59,
+            "dependencies": 27
           },
           "failed": false,
           "errors": 0,
@@ -5839,8 +5839,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/keys.js",
           "profile": {
-            "factory": 383,
-            "building": 55,
+            "factory": 366,
+            "building": 58,
             "dependencies": 28
           },
           "failed": false,
@@ -5876,9 +5876,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/set-prototype-of.js",
           "profile": {
-            "factory": 51,
-            "building": 25,
-            "dependencies": 12
+            "factory": 50,
+            "building": 24,
+            "dependencies": 18
           },
           "failed": false,
           "errors": 0,
@@ -5913,9 +5913,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/symbol.js",
           "profile": {
-            "factory": 60,
-            "building": 24,
-            "dependencies": 5
+            "factory": 63,
+            "building": 22,
+            "dependencies": 9
           },
           "failed": false,
           "errors": 0,
@@ -5950,8 +5950,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/symbol/iterator.js",
           "profile": {
-            "factory": 49,
-            "building": 26
+            "factory": 50,
+            "building": 24
           },
           "failed": false,
           "errors": 0,
@@ -5986,8 +5986,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_ctx.js",
           "profile": {
-            "factory": 19,
-            "building": 6
+            "factory": 21,
+            "building": 5
           },
           "failed": false,
           "errors": 0,
@@ -6022,8 +6022,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.iterator.js",
           "profile": {
-            "factory": 25,
-            "building": 5
+            "factory": 30,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -6058,7 +6058,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-keys-internal.js",
           "profile": {
-            "factory": 5,
+            "factory": 4,
             "building": 1,
             "dependencies": 0
           },
@@ -6095,7 +6095,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
           "profile": {
-            "factory": 30,
+            "factory": 29,
             "building": 25,
             "dependencies": 0
           },
@@ -6133,7 +6133,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
             "factory": 21,
-            "building": 32,
+            "building": 29,
             "dependencies": 1
           },
           "failed": false,
@@ -6169,8 +6169,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
           "profile": {
-            "factory": 30,
-            "building": 8,
+            "factory": 26,
+            "building": 6,
             "dependencies": 0
           },
           "failed": false,
@@ -6207,7 +6207,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
           "profile": {
             "factory": 29,
-            "building": 25,
+            "building": 24,
             "dependencies": 0
           },
           "failed": false,
@@ -6243,8 +6243,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
-            "building": 32
+            "factory": 21,
+            "building": 30
           },
           "failed": false,
           "errors": 0,
@@ -6280,7 +6280,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
           "profile": {
             "factory": 29,
-            "building": 25,
+            "building": 24,
             "dependencies": 0
           },
           "failed": false,
@@ -6316,8 +6316,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_iter-define.js",
           "profile": {
-            "factory": 26,
-            "building": 5,
+            "factory": 31,
+            "building": 4,
             "dependencies": 0
           },
           "failed": false,
@@ -6353,8 +6353,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
           "profile": {
-            "factory": 30,
-            "building": 26,
+            "factory": 29,
+            "building": 25,
             "dependencies": 0
           },
           "failed": false,
@@ -6390,7 +6390,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.iterator.js",
           "profile": {
-            "factory": 25,
+            "factory": 30,
             "building": 5
           },
           "failed": false,
@@ -6426,8 +6426,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 21,
-            "building": 29,
+            "factory": 20,
+            "building": 28,
             "dependencies": 0
           },
           "failed": false,
@@ -6463,9 +6463,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.assign.js",
           "profile": {
-            "factory": 32,
-            "building": 23,
-            "dependencies": 20
+            "factory": 28,
+            "building": 26,
+            "dependencies": 18
           },
           "failed": false,
           "errors": 0,
@@ -6500,8 +6500,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
           "profile": {
-            "factory": 30,
-            "building": 4,
+            "factory": 25,
+            "building": 5,
             "dependencies": 0
           },
           "failed": false,
@@ -6537,9 +6537,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
           "profile": {
-            "factory": 22,
-            "building": 33,
-            "dependencies": 1
+            "factory": 21,
+            "building": 34,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -6574,9 +6574,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.set-prototype-of.js",
           "profile": {
-            "factory": 36,
-            "building": 12,
-            "dependencies": 0
+            "factory": 32,
+            "building": 20,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -6611,9 +6611,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.string.iterator.js",
           "profile": {
-            "factory": 35,
-            "building": 15,
-            "dependencies": 28
+            "factory": 34,
+            "building": 8,
+            "dependencies": 37
           },
           "failed": false,
           "errors": 0,
@@ -6649,7 +6649,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_array-includes.js",
           "profile": {
             "factory": 1,
-            "building": 387,
+            "building": 420,
             "dependencies": 0
           },
           "failed": false,
@@ -6685,8 +6685,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/get-iterator.js",
           "profile": {
-            "factory": 10,
-            "building": 11,
+            "factory": 17,
+            "building": 8,
             "dependencies": 0
           },
           "failed": false,
@@ -6722,9 +6722,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/is-iterable.js",
           "profile": {
-            "factory": 8,
-            "building": 28,
-            "dependencies": 14
+            "factory": 16,
+            "building": 25,
+            "dependencies": 12
           },
           "failed": false,
           "errors": 0,
@@ -6759,9 +6759,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/array/from.js",
           "profile": {
-            "factory": 9,
-            "building": 13,
-            "dependencies": 29
+            "factory": 17,
+            "building": 10,
+            "dependencies": 28
           },
           "failed": false,
           "errors": 0,
@@ -6796,9 +6796,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
           "profile": {
-            "factory": 34,
-            "building": 18,
-            "dependencies": 0
+            "factory": 33,
+            "building": 15,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -6833,9 +6833,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/assign.js",
           "profile": {
-            "factory": 11,
-            "building": 10,
-            "dependencies": 31
+            "factory": 17,
+            "building": 11,
+            "dependencies": 27
           },
           "failed": false,
           "errors": 0,
@@ -6870,9 +6870,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/create.js",
           "profile": {
-            "factory": 11,
-            "building": 7,
-            "dependencies": 35
+            "factory": 18,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -6907,9 +6906,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/define-property.js",
           "profile": {
-            "factory": 9,
-            "building": 28,
-            "dependencies": 16
+            "factory": 7,
+            "building": 26,
+            "dependencies": 14
           },
           "failed": false,
           "errors": 0,
@@ -6944,9 +6943,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/get-own-property-descriptor.js",
           "profile": {
-            "factory": 27,
-            "building": 9,
-            "dependencies": 33
+            "factory": 28,
+            "building": 10,
+            "dependencies": 29
           },
           "failed": false,
           "errors": 0,
@@ -6981,9 +6980,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/get-prototype-of.js",
           "profile": {
-            "factory": 26,
-            "building": 10,
-            "dependencies": 32
+            "factory": 28,
+            "building": 8,
+            "dependencies": 30
           },
           "failed": false,
           "errors": 0,
@@ -7019,7 +7018,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/keys.js",
           "profile": {
             "factory": 28,
-            "building": 6
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -7054,8 +7053,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/set-prototype-of.js",
           "profile": {
-            "factory": 12,
-            "building": 6
+            "factory": 18,
+            "building": 7,
+            "dependencies": 32
           },
           "failed": false,
           "errors": 0,
@@ -7090,8 +7090,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
           "profile": {
-            "factory": 6,
-            "building": 15
+            "factory": 10,
+            "building": 24
           },
           "failed": false,
           "errors": 0,
@@ -7126,9 +7126,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
           "profile": {
-            "factory": 6,
-            "building": 22,
-            "dependencies": 21
+            "factory": 10,
+            "building": 18,
+            "dependencies": 19
           },
           "failed": false,
           "errors": 0,
@@ -7163,8 +7163,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
           "profile": {
-            "factory": 6,
-            "building": 15
+            "factory": 10,
+            "building": 24,
+            "dependencies": 16
           },
           "failed": false,
           "errors": 0,
@@ -7199,9 +7200,9 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
           "profile": {
-            "factory": 7,
-            "building": 15,
-            "dependencies": 27
+            "factory": 10,
+            "building": 25,
+            "dependencies": 15
           },
           "failed": false,
           "errors": 0,
@@ -7237,7 +7238,7 @@
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_to-string-loader@1.1.5@to-string-loader/src/to-string.js!/Users/xuxiaomeng/work/gugu/node_modules/_css-loader@1.0.0@css-loader/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_sass-loader@7.1.0@sass-loader/lib/loader.js!/Users/xuxiaomeng/work/gugu/src/view/style.scss",
           "profile": {
             "factory": 3,
-            "building": 826
+            "building": 798
           },
           "failed": false,
           "errors": 0,
@@ -7272,8 +7273,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_css-loader@1.0.0@css-loader/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_sass-loader@7.1.0@sass-loader/lib/loader.js!/Users/xuxiaomeng/work/gugu/src/view/style.scss",
           "profile": {
-            "factory": 48,
-            "building": 4
+            "factory": 47,
+            "building": 3
           },
           "failed": false,
           "errors": 0,
@@ -7308,8 +7309,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_simple-xpath-position@2.0.2@simple-xpath-position/lib/xpath.js",
           "profile": {
-            "factory": 21,
-            "building": 34
+            "factory": 20,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -7344,8 +7345,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/utils.js",
           "profile": {
-            "factory": 274,
-            "building": 61
+            "factory": 258,
+            "building": 64
           },
           "failed": false,
           "errors": 0,
@@ -7380,8 +7381,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/highlightDom.js",
           "profile": {
-            "factory": 32,
-            "building": 265
+            "factory": 33,
+            "building": 247
           },
           "failed": false,
           "errors": 0,
@@ -7416,7 +7417,7 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
           "profile": {
-            "factory": 170,
+            "factory": 168,
             "building": 14
           },
           "failed": false,
@@ -7452,8 +7453,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_simple-xpath-position@2.0.2@simple-xpath-position/lib/xpath.js",
           "profile": {
-            "factory": 14,
-            "building": 9
+            "factory": 3,
+            "building": 19
           },
           "failed": false,
           "errors": 0,
@@ -7488,8 +7489,8 @@
           "assets": [],
           "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_simple-xpath-position@2.0.2@simple-xpath-position/index.js",
           "profile": {
-            "factory": 275,
-            "building": 59
+            "factory": 256,
+            "building": 63
           },
           "failed": false,
           "errors": 0,
@@ -7576,8 +7577,8 @@
       "assets": [],
       "issuer": null,
       "profile": {
-        "factory": 25,
-        "building": 472
+        "factory": 24,
+        "building": 458
       },
       "failed": false,
       "errors": 0,
@@ -7602,8 +7603,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/json/stringify.js",
       "profile": {
-        "factory": 27,
-        "building": 6
+        "factory": 30,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -7782,8 +7783,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 621,
-        "building": 224
+        "factory": 715,
+        "building": 164
       },
       "failed": false,
       "errors": 0,
@@ -7917,9 +7918,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 670,
-        "building": 43,
-        "dependencies": 84
+        "factory": 696,
+        "building": 48,
+        "dependencies": 78
       },
       "failed": false,
       "errors": 0,
@@ -8044,8 +8045,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
       "profile": {
-        "factory": 35,
-        "building": 20,
+        "factory": 33,
+        "building": 17,
         "dependencies": 0
       },
       "failed": false,
@@ -8171,8 +8172,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 641,
-        "building": 68,
+        "factory": 667,
+        "building": 69,
         "dependencies": 0
       },
       "failed": false,
@@ -8289,8 +8290,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 669,
-        "building": 44
+        "factory": 695,
+        "building": 45
       },
       "failed": false,
       "errors": 0,
@@ -8406,9 +8407,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 671,
-        "building": 46,
-        "dependencies": 80
+        "factory": 697,
+        "building": 45,
+        "dependencies": 81
       },
       "failed": false,
       "errors": 0,
@@ -8524,9 +8525,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 670,
-        "building": 45,
-        "dependencies": 82
+        "factory": 696,
+        "building": 43,
+        "dependencies": 84
       },
       "failed": false,
       "errors": 0,
@@ -8642,8 +8643,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 788,
-        "building": 14
+        "factory": 811,
+        "building": 18
       },
       "failed": false,
       "errors": 0,
@@ -8750,8 +8751,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/index.js",
       "profile": {
-        "factory": 30,
-        "building": 117
+        "factory": 31,
+        "building": 120
       },
       "failed": false,
       "errors": 0,
@@ -8858,8 +8859,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 668,
-        "building": 46
+        "factory": 695,
+        "building": 43
       },
       "failed": false,
       "errors": 0,
@@ -8964,11 +8965,11 @@
         0
       ],
       "assets": [],
-      "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.set-prototype-of.js",
+      "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.create.js",
       "profile": {
-        "factory": 36,
-        "building": 11,
-        "dependencies": 1
+        "factory": 32,
+        "building": 18,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -9066,8 +9067,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
       "profile": {
-        "factory": 34,
-        "building": 20
+        "factory": 33,
+        "building": 16
       },
       "failed": false,
       "errors": 0,
@@ -9165,9 +9166,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
-        "building": 34,
-        "dependencies": 7
+        "factory": 21,
+        "building": 35,
+        "dependencies": 8
       },
       "failed": false,
       "errors": 0,
@@ -9266,7 +9267,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/core.get-iterator.js",
       "profile": {
         "factory": 31,
-        "building": 23,
+        "building": 21,
         "dependencies": 0
       },
       "failed": false,
@@ -9356,8 +9357,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 21,
-        "building": 28,
+        "factory": 20,
+        "building": 27,
         "dependencies": 0
       },
       "failed": false,
@@ -9447,7 +9448,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 21,
+        "factory": 20,
         "building": 27
       },
       "failed": false,
@@ -9537,8 +9538,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.get-own-property-descriptor.js",
       "profile": {
-        "factory": 34,
-        "building": 20,
+        "factory": 30,
+        "building": 22,
         "dependencies": 22
       },
       "failed": false,
@@ -9628,8 +9629,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 21,
-        "building": 30
+        "factory": 20,
+        "building": 28
       },
       "failed": false,
       "errors": 0,
@@ -9709,8 +9710,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
       "profile": {
-        "factory": 34,
-        "building": 20,
+        "factory": 33,
+        "building": 17,
         "dependencies": 0
       },
       "failed": false,
@@ -9791,7 +9792,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
+        "factory": 21,
         "building": 32
       },
       "failed": false,
@@ -9872,8 +9873,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
       "profile": {
-        "factory": 34,
-        "building": 20
+        "factory": 33,
+        "building": 17
       },
       "failed": false,
       "errors": 0,
@@ -9953,8 +9954,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
       "profile": {
-        "factory": 556,
-        "building": 225
+        "factory": 641,
+        "building": 166
       },
       "failed": false,
       "errors": 0,
@@ -10025,8 +10026,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.keys.js",
       "profile": {
-        "factory": 35,
-        "building": 10
+        "factory": 34,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -10097,7 +10098,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
+        "factory": 21,
         "building": 33
       },
       "failed": false,
@@ -10169,8 +10170,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.keys.js",
       "profile": {
-        "factory": 35,
-        "building": 6
+        "factory": 34,
+        "building": 7
       },
       "failed": false,
       "errors": 0,
@@ -10241,8 +10242,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
       "profile": {
-        "factory": 556,
-        "building": 224
+        "factory": 641,
+        "building": 165
       },
       "failed": false,
       "errors": 0,
@@ -10367,8 +10368,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
-        "building": 35
+        "factory": 21,
+        "building": 36
       },
       "failed": false,
       "errors": 0,
@@ -10431,7 +10432,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
         "factory": 21,
-        "building": 32
+        "building": 28
       },
       "failed": false,
       "errors": 0,
@@ -10493,8 +10494,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/iterator.js",
       "profile": {
-        "factory": 11,
-        "building": 7
+        "factory": 19,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -10556,8 +10557,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_is-array.js",
       "profile": {
-        "factory": 9,
-        "building": 6
+        "factory": 13,
+        "building": 5
       },
       "failed": false,
       "errors": 0,
@@ -10610,7 +10611,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
       "profile": {
-        "factory": 29,
+        "factory": 28,
         "building": 24
       },
       "failed": false,
@@ -10664,7 +10665,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_to-object.js",
       "profile": {
-        "factory": 37,
+        "factory": 38,
         "building": 3
       },
       "failed": false,
@@ -10718,7 +10719,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-keys.js",
       "profile": {
-        "factory": 34,
+        "factory": 38,
         "building": 3
       },
       "failed": false,
@@ -10772,9 +10773,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.create.js",
       "profile": {
-        "factory": 35,
-        "building": 13,
-        "dependencies": 30
+        "factory": 32,
+        "building": 19,
+        "dependencies": 25
       },
       "failed": false,
       "errors": 0,
@@ -10827,9 +10828,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.get-own-property-descriptor.js",
       "profile": {
-        "factory": 34,
-        "building": 21,
-        "dependencies": 0
+        "factory": 30,
+        "building": 23,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -10882,8 +10883,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
-        "building": 35
+        "factory": 21,
+        "building": 36
       },
       "failed": false,
       "errors": 0,
@@ -10936,9 +10937,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.keys.js",
       "profile": {
-        "factory": 36,
-        "building": 10,
-        "dependencies": 0
+        "factory": 35,
+        "building": 6,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -10991,9 +10992,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 21,
-        "building": 31,
-        "dependencies": 1
+        "factory": 20,
+        "building": 29,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -11046,8 +11047,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
       "profile": {
-        "factory": 30,
-        "building": 4,
+        "factory": 25,
+        "building": 5,
         "dependencies": 0
       },
       "failed": false,
@@ -11101,8 +11102,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 21,
-        "building": 30,
+        "factory": 20,
+        "building": 29,
         "dependencies": 0
       },
       "failed": false,
@@ -11156,8 +11157,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_string-at.js",
       "profile": {
-        "factory": 28,
-        "building": 5
+        "factory": 37,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -11210,7 +11211,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
+        "factory": 21,
         "building": 33,
         "dependencies": 0
       },
@@ -11263,10 +11264,10 @@
         0
       ],
       "assets": [],
-      "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es7.symbol.async-iterator.js",
+      "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 28,
-        "building": 27,
+        "factory": 21,
+        "building": 29,
         "dependencies": 0
       },
       "failed": false,
@@ -11320,9 +11321,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/iterator.js",
       "profile": {
-        "factory": 12,
-        "building": 9,
-        "dependencies": 33
+        "factory": 19,
+        "building": 6,
+        "dependencies": 32
       },
       "failed": false,
       "errors": 0,
@@ -11375,8 +11376,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/iterator.js",
       "profile": {
-        "factory": 12,
-        "building": 7
+        "factory": 19,
+        "building": 5
       },
       "failed": false,
       "errors": 0,
@@ -11429,8 +11430,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
       "profile": {
-        "factory": 556,
-        "building": 225
+        "factory": 641,
+        "building": 166
       },
       "failed": false,
       "errors": 0,
@@ -11474,8 +11475,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/defineProperty.js",
       "profile": {
-        "factory": 85,
-        "building": 268
+        "factory": 81,
+        "building": 254
       },
       "failed": false,
       "errors": 0,
@@ -11519,8 +11520,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/commandReducer.js",
       "profile": {
-        "factory": 669,
-        "building": 43
+        "factory": 695,
+        "building": 46
       },
       "failed": false,
       "errors": 0,
@@ -11565,7 +11566,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/core.is-iterable.js",
       "profile": {
         "factory": 16,
-        "building": 35,
+        "building": 36,
         "dependencies": 6
       },
       "failed": false,
@@ -11610,8 +11611,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
       "profile": {
-        "factory": 30,
-        "building": 8,
+        "factory": 26,
+        "building": 6,
         "dependencies": 0
       },
       "failed": false,
@@ -11748,9 +11749,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.string.iterator.js",
       "profile": {
-        "factory": 35,
-        "building": 17,
-        "dependencies": 1
+        "factory": 34,
+        "building": 14,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -11794,8 +11795,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
-        "building": 34,
+        "factory": 21,
+        "building": 36,
         "dependencies": 6
       },
       "failed": false,
@@ -11840,9 +11841,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.get-prototype-of.js",
       "profile": {
-        "factory": 33,
+        "factory": 31,
         "building": 22,
-        "dependencies": 20
+        "dependencies": 22
       },
       "failed": false,
       "errors": 0,
@@ -11886,7 +11887,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-keys.js",
       "profile": {
-        "factory": 34,
+        "factory": 38,
         "building": 3,
         "dependencies": 0
       },
@@ -11932,8 +11933,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 21,
-        "building": 28,
+        "factory": 20,
+        "building": 27,
         "dependencies": 0
       },
       "failed": false,
@@ -11978,9 +11979,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
       "profile": {
-        "factory": 30,
-        "building": 25,
-        "dependencies": 16
+        "factory": 29,
+        "building": 24,
+        "dependencies": 19
       },
       "failed": false,
       "errors": 0,
@@ -12025,7 +12026,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/core.get-iterator.js",
       "profile": {
         "factory": 31,
-        "building": 24,
+        "building": 21,
         "dependencies": 0
       },
       "failed": false,
@@ -12070,8 +12071,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/tracker.js",
       "profile": {
-        "factory": 231,
-        "building": 111
+        "factory": 252,
+        "building": 109
       },
       "failed": false,
       "errors": 0,
@@ -12116,8 +12117,8 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/index.js",
       "profile": {
         "factory": 30,
-        "building": 51,
-        "dependencies": 3
+        "building": 47,
+        "dependencies": 4
       },
       "failed": false,
       "errors": 0,
@@ -12152,9 +12153,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
+        "factory": 80,
         "building": 93,
-        "dependencies": 463
+        "dependencies": 550
       },
       "failed": false,
       "errors": 0,
@@ -12189,9 +12190,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 71,
-        "building": 314,
-        "dependencies": 568
+        "factory": 80,
+        "building": 159,
+        "dependencies": 746
       },
       "failed": false,
       "errors": 0,
@@ -12226,9 +12227,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
-        "building": 462,
-        "dependencies": 419
+        "factory": 81,
+        "building": 460,
+        "dependencies": 444
       },
       "failed": false,
       "errors": 0,
@@ -12263,9 +12264,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
-        "building": 396,
-        "dependencies": 485
+        "factory": 81,
+        "building": 402,
+        "dependencies": 502
       },
       "failed": false,
       "errors": 0,
@@ -12300,9 +12301,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
-        "building": 142,
-        "dependencies": 622
+        "factory": 81,
+        "building": 197,
+        "dependencies": 592
       },
       "failed": false,
       "errors": 0,
@@ -12326,7 +12327,7 @@
       "name": "./src/modules/replayer.js",
       "index": 126,
       "index2": 124,
-      "size": 7196,
+      "size": 7195,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -12337,9 +12338,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
-        "building": 628,
-        "dependencies": 254
+        "factory": 81,
+        "building": 630,
+        "dependencies": 274
       },
       "failed": false,
       "errors": 0,
@@ -12355,7 +12356,7 @@
           "loc": "44:16-45"
         }
       ],
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class; /* eslint operator-assignment: 0 */\n/* eslint no-param-reassign: 0 */\n\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nfunction triggerMouseEvent(node, eventType) {\n  var e = document.createEvent('MouseEvents');\n  e.initEvent(eventType, true, true);\n  node.dispatchEvent(e);\n  if (eventType === 'mousedown') {\n    node.click();\n  }\n}\n\nfunction triggerTouchEvent(node, eventType) {\n  var e = void 0;\n  try {\n    e = document.createEvent('TouchEvent');\n    e.initTouchEvent(eventType, true, true);\n  } catch (err) {\n    try {\n      e = document.createEvent('UIEvent');\n      e.initUIEvent(eventType, true, true);\n    } catch (err2) {\n      e = document.createEvent('Event');\n      e.initEvent(eventType, true, true);\n    }\n  }\n  node.dispatchEvent(e);\n  if (eventType === 'touchend') {\n    node.click();\n  }\n}\n\nfunction triggerKeypressEvent(node, keyCode) {\n  var e = document.createEvent('HTMLEvents');\n  e.keyCode = keyCode;\n  e.initEvent('keyup', true, true);\n  node.dispatchEvent(e);\n  if (node.value !== undefined) {\n    node.value = node.value + String.fromCharCode(keyCode);\n  }\n}\n\nvar Replayer = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Replayer, _BaseModule);\n\n  function Replayer() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Replayer);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Replayer.__proto__ || (0, _getPrototypeOf2.default)(Replayer)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'replay', _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Replayer, [{\n    key: 'init',\n    value: function init() {\n      this.data = {};\n      this.setInitData();\n    }\n  }, {\n    key: 'setInitData',\n    value: function setInitData() {\n      var _this2 = this;\n\n      this.setSelfData({}).then(function () {\n        _this2.onSelfDataChange(_this2.handleDataChange);\n      });\n    }\n  }, {\n    key: 'parseCode',\n    value: function parseCode(record) {\n      try {\n        if (!record.startAt || !record.endAt || !record.startPos || !record.events) return null;\n        var timeline = [];\n        record.events.forEach(function (event, i) {\n          var offset = 0;\n          if (i > 0) {\n            offset = event.time - record.events[i - 1].time;\n          }\n          timeline.push({\n            offset: offset,\n            type: event.type,\n            data: event.data,\n            path: event.path\n          });\n        });\n        return timeline;\n      } catch (e) {\n        return null;\n      }\n    }\n  }, {\n    key: 'handleDataChange',\n    value: function handleDataChange(data) {\n      var timeline = this.parseCode(data);\n      if (timeline) {\n        this.replay(timeline);\n      }\n    }\n  }, {\n    key: 'replay',\n    value: function replay(timeline) {\n      if (timeline.length === 0) return;\n      this.replayEvent(timeline, 0);\n    }\n  }, {\n    key: 'replayEvent',\n    value: function replayEvent(events, i) {\n      var _this3 = this;\n\n      var event = events[i];\n      setTimeout(function () {\n        var element = void 0;\n        if (event.path && event.path.length > 0) {\n          element = xpath.toNode(event.path, document);\n        } else {\n          element = window;\n        }\n        if (!element) return;\n        switch (event.type) {\n          case 'mousedown':\n            triggerMouseEvent(element, 'mousedown');\n            break;\n          case 'mouseup':\n            triggerMouseEvent(element, 'mouseup');\n            break;\n          case 'touchstart':\n            triggerTouchEvent(element, 'touchstart');\n            break;\n          case 'touchend':\n            triggerTouchEvent(element, 'touchend');\n            break;\n          case 'scroll':\n            window.scrollTo(event.data[0], event.data[1]);\n            break;\n          case 'focus':\n            element.focus();\n            break;\n          case 'blur':\n            element.blur();\n            break;\n          case 'keypress':\n            triggerKeypressEvent(element, event.data);\n            break;\n          default:\n            break;\n        }\n\n        if (i < events.length - 1) {\n          _this3.replayEvent(events, i + 1);\n        } else {\n          alert('finish');\n        }\n      }, event.offset);\n    }\n  }]);\n  return Replayer;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleDataChange', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleDataChange'), _class.prototype)), _class);\nexports.default = Replayer;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class; /* eslint operator-assignment: 0 */\n/* eslint no-param-reassign: 0 */\n\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nfunction triggerMouseEvent(node, eventType) {\n  var e = document.createEvent('MouseEvents');\n  e.initEvent(eventType, true, true);\n  node.dispatchEvent(e);\n  if (eventType === 'mousedown') {\n    node.click();\n  }\n}\n\nfunction triggerTouchEvent(node, eventType) {\n  var e = void 0;\n  try {\n    e = document.createEvent('TouchEvent');\n    e.initTouchEvent(eventType, true, true);\n  } catch (err) {\n    try {\n      e = document.createEvent('UIEvent');\n      e.initUIEvent(eventType, true, true);\n    } catch (err2) {\n      e = document.createEvent('Event');\n      e.initEvent(eventType, true, true);\n    }\n  }\n  node.dispatchEvent(e);\n  if (eventType === 'touchend') {\n    node.click();\n  }\n}\n\nfunction triggerKeypressEvent(node, keyCode) {\n  var e = document.createEvent('HTMLEvents');\n  e.keyCode = keyCode;\n  e.initEvent('keyup', true, true);\n  node.dispatchEvent(e);\n  if (node.value !== undefined) {\n    node.value = node.value + String.fromCharCode(keyCode);\n  }\n}\n\nvar Replayer = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Replayer, _BaseModule);\n\n  function Replayer() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Replayer);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Replayer.__proto__ || (0, _getPrototypeOf2.default)(Replayer)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'replay', _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Replayer, [{\n    key: 'init',\n    value: function init() {\n      this.data = {};\n      this.setInitData();\n    }\n  }, {\n    key: 'setInitData',\n    value: function setInitData() {\n      var _this2 = this;\n\n      this.setSelfData({}).then(function () {\n        _this2.onSelfDataChange(_this2.handleDataChange);\n      });\n    }\n  }, {\n    key: 'parseCode',\n    value: function parseCode(record) {\n      try {\n        if (!record.startAt || !record.endAt || !record.startPos || !record.events) return null;\n        var timeline = [];\n        record.events.forEach(function (event, i) {\n          var offset = 0;\n          if (i > 0) {\n            offset = event.time - record.events[i - 1].time;\n          }\n          timeline.push({\n            offset: offset,\n            type: event.type,\n            data: event.data,\n            path: event.path\n          });\n        });\n        return timeline;\n      } catch (e) {\n        return null;\n      }\n    }\n  }, {\n    key: 'handleDataChange',\n    value: function handleDataChange(data) {\n      var timeline = this.parseCode(data);\n      if (timeline) {\n        this.replay(timeline);\n      }\n    }\n  }, {\n    key: 'replay',\n    value: function replay(timeline) {\n      if (timeline.length === 0) return;\n      this.replayEvent(timeline, 0);\n    }\n  }, {\n    key: 'replayEvent',\n    value: function replayEvent(events, i) {\n      var _this3 = this;\n\n      var event = events[i];\n      setTimeout(function () {\n        var element = void 0;\n        if (event.path && event.path.length > 0) {\n          element = xpath.toNode(event.path, document);\n        } else {\n          element = window;\n        }\n        if (!element) return;\n        switch (event.type) {\n          case 'mousedown':\n            triggerMouseEvent(element, 'mousedown');\n            break;\n          case 'mouseup':\n            triggerMouseEvent(element, 'mouseup');\n            break;\n          case 'touchstart':\n            triggerTouchEvent(element, 'touchstart');\n            break;\n          case 'touchend':\n            triggerTouchEvent(element, 'touchend');\n            break;\n          case 'scroll':\n            window.scrollTo(event.data[0], event.data[1]);\n            break;\n          case 'focus':\n            element.focus();\n            break;\n          case 'blur':\n            element.blur();\n            break;\n          case 'keydown':\n            triggerKeypressEvent(element, event.data);\n            break;\n          default:\n            break;\n        }\n\n        if (i < events.length - 1) {\n          _this3.replayEvent(events, i + 1);\n        } else {\n          alert('finish');\n        }\n      }, event.offset);\n    }\n  }]);\n  return Replayer;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleDataChange', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleDataChange'), _class.prototype)), _class);\nexports.default = Replayer;"
     },
     {
       "id": 70,
@@ -12374,9 +12375,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
-        "building": 362,
-        "dependencies": 519
+        "factory": 81,
+        "building": 370,
+        "dependencies": 534
       },
       "failed": false,
       "errors": 0,
@@ -12400,7 +12401,7 @@
       "name": "./src/modules/tracker.js",
       "index": 121,
       "index2": 123,
-      "size": 8969,
+      "size": 8959,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -12411,9 +12412,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
-        "building": 546,
-        "dependencies": 336
+        "factory": 81,
+        "building": 550,
+        "dependencies": 354
       },
       "failed": false,
       "errors": 0,
@@ -12429,7 +12430,7 @@
           "loc": "40:15-43"
         }
       ],
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class;\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nvar performance = window.webkitPerformance || window.performance;\nvar start = new Date();\nvar now = performance && performance.now ? function () {\n  return performance.now();\n} : function () {\n  return new Date() - start;\n};\n\nvar Tracker = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Tracker, _BaseModule);\n\n  function Tracker() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Tracker);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Tracker.__proto__ || (0, _getPrototypeOf2.default)(Tracker)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'records', _this.events = [], _this.startAt = -1, _this.startPos = [], _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Tracker, [{\n    key: 'init',\n    value: function init() {}\n  }, {\n    key: 'start',\n    value: function start() {\n      this.events = [];\n      window.addEventListener('mousedown', this.handleMouseDown);\n      window.addEventListener('mouseup', this.handleMouseUp);\n      window.addEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.addEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.addEventListener('scroll', this.handleScroll);\n      window.addEventListener('focus', this.handleFocus, true);\n      window.addEventListener('blur', this.handleBlur, true);\n      window.addEventListener('keypress', this.handleKeypress);\n      this.startPos = [window.scrollX, window.screenY];\n      this.startAt = now();\n    }\n  }, {\n    key: 'end',\n    value: function end() {\n      this.endAt = now();\n      window.removeEventListener('mousedown', this.handleMouseDown);\n      window.removeEventListener('mouseup', this.handleMouseUp);\n      window.removeEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.removeEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.removeEventListener('scroll', this.handleScroll);\n      window.removeEventListener('focus', this.handleFocus, true);\n      window.removeEventListener('blur', this.handleBlur, true);\n      window.removeEventListener('keypress', this.handleKeypress);\n      var payload = {\n        events: this.events,\n        startAt: this.startAt,\n        endAt: this.endAt,\n        startPos: this.startPos,\n        connectionId: this.gugu.connectionId\n      };\n      this.setSelfData(payload);\n    }\n  }, {\n    key: 'handleMouseDown',\n    value: function handleMouseDown(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mousedown', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleMouseUp',\n    value: function handleMouseUp(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mouseup', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchStart',\n    value: function handleTouchStart(e) {\n      this.touch = true;\n      var info = this.getBaseInfo('touchstart', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchEnd',\n    value: function handleTouchEnd(e) {\n      var info = this.getBaseInfo('touchend', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleScroll',\n    value: function handleScroll(e) {\n      // const _now = now();\n      // if (_now - this.lastScroll < 200) return;\n      // this.lastScroll = _now;\n      var info = this.getBaseInfo('scroll', e, [window.scrollX, window.scrollY]);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleFocus',\n    value: function handleFocus(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('focus', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleBlur',\n    value: function handleBlur(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('blur', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleKeypress',\n    value: function handleKeypress(e) {\n      var info = this.getBaseInfo('keypress', e, e.charCode);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'getBaseInfo',\n    value: function getBaseInfo(type, e, data) {\n      var target = e.target;\n      var path = xpath.fromNode(target);\n      // check gugu element\n      var gu = xpath.fromNode(document.getElementById('gu'));\n      if (path.startsWith(gu)) return null;\n      var ret = {\n        type: type,\n        path: path,\n        time: now()\n      };\n      if (data) ret.data = data;\n      return ret;\n    }\n  }]);\n  return Tracker;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleMouseDown', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseDown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleMouseUp', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseUp'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchStart', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchStart'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchEnd', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchEnd'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleScroll', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleScroll'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleFocus', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleFocus'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleBlur', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleKeypress', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleKeypress'), _class.prototype)), _class);\nexports.default = Tracker;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = undefined;\n\nvar _getOwnPropertyDescriptor = require('babel-runtime/core-js/object/get-own-property-descriptor');\n\nvar _getOwnPropertyDescriptor2 = _interopRequireDefault(_getOwnPropertyDescriptor);\n\nvar _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = require('babel-runtime/helpers/createClass');\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _desc, _value, _class;\n\nvar _autobindDecorator = require('autobind-decorator');\n\nvar _autobindDecorator2 = _interopRequireDefault(_autobindDecorator);\n\nvar _simpleXpathPosition = require('simple-xpath-position');\n\nvar xpath = _interopRequireWildcard(_simpleXpathPosition);\n\nvar _base = require('./base');\n\nvar _base2 = _interopRequireDefault(_base);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {\n  var desc = {};\n  Object['ke' + 'ys'](descriptor).forEach(function (key) {\n    desc[key] = descriptor[key];\n  });\n  desc.enumerable = !!desc.enumerable;\n  desc.configurable = !!desc.configurable;\n\n  if ('value' in desc || desc.initializer) {\n    desc.writable = true;\n  }\n\n  desc = decorators.slice().reverse().reduce(function (desc, decorator) {\n    return decorator(target, property, desc) || desc;\n  }, desc);\n\n  if (context && desc.initializer !== void 0) {\n    desc.value = desc.initializer ? desc.initializer.call(context) : void 0;\n    desc.initializer = undefined;\n  }\n\n  if (desc.initializer === void 0) {\n    Object['define' + 'Property'](target, property, desc);\n    desc = null;\n  }\n\n  return desc;\n}\n\nvar performance = window.webkitPerformance || window.performance;\nvar start = new Date();\nvar now = performance && performance.now ? function () {\n  return performance.now();\n} : function () {\n  return new Date() - start;\n};\n\nvar Tracker = (_class = function (_BaseModule) {\n  (0, _inherits3.default)(Tracker, _BaseModule);\n\n  function Tracker() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    (0, _classCallCheck3.default)(this, Tracker);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Tracker.__proto__ || (0, _getPrototypeOf2.default)(Tracker)).call.apply(_ref, [this].concat(args))), _this), _this.moduleName = 'records', _this.events = [], _this.startAt = -1, _this.startPos = [], _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);\n  }\n\n  (0, _createClass3.default)(Tracker, [{\n    key: 'init',\n    value: function init() {}\n  }, {\n    key: 'start',\n    value: function start() {\n      this.events = [];\n      window.addEventListener('mousedown', this.handleMouseDown);\n      window.addEventListener('mouseup', this.handleMouseUp);\n      window.addEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.addEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.addEventListener('scroll', this.handleScroll);\n      window.addEventListener('focus', this.handleFocus, true);\n      window.addEventListener('blur', this.handleBlur, true);\n      window.addEventListener('keydown', this.handleKeydown);\n      this.startPos = [window.scrollX, window.screenY];\n      this.startAt = now();\n    }\n  }, {\n    key: 'end',\n    value: function end() {\n      this.endAt = now();\n      window.removeEventListener('mousedown', this.handleMouseDown);\n      window.removeEventListener('mouseup', this.handleMouseUp);\n      window.removeEventListener('touchstart', this.handleTouchStart, { passive: true });\n      window.removeEventListener('touchend', this.handleTouchEnd, { passive: true });\n      window.removeEventListener('scroll', this.handleScroll);\n      window.removeEventListener('focus', this.handleFocus, true);\n      window.removeEventListener('blur', this.handleBlur, true);\n      window.removeEventListener('keydown', this.handleKeydown);\n      var payload = {\n        events: this.events,\n        startAt: this.startAt,\n        endAt: this.endAt,\n        startPos: this.startPos,\n        connectionId: this.gugu.connectionId\n      };\n      this.setSelfData(payload);\n    }\n  }, {\n    key: 'handleMouseDown',\n    value: function handleMouseDown(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mousedown', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleMouseUp',\n    value: function handleMouseUp(e) {\n      if (this.touch) return;\n      var info = this.getBaseInfo('mouseup', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchStart',\n    value: function handleTouchStart(e) {\n      this.touch = true;\n      var info = this.getBaseInfo('touchstart', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleTouchEnd',\n    value: function handleTouchEnd(e) {\n      var info = this.getBaseInfo('touchend', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleScroll',\n    value: function handleScroll(e) {\n      // const _now = now();\n      // if (_now - this.lastScroll < 200) return;\n      // this.lastScroll = _now;\n      var info = this.getBaseInfo('scroll', e, [window.scrollX, window.scrollY]);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleFocus',\n    value: function handleFocus(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('focus', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleBlur',\n    value: function handleBlur(e) {\n      if (e.target === window) return;\n      var info = this.getBaseInfo('blur', e);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'handleKeydown',\n    value: function handleKeydown(e) {\n      var info = this.getBaseInfo('keydown', e, e.keyCode);\n      if (info) {\n        this.events.push(info);\n      }\n    }\n  }, {\n    key: 'getBaseInfo',\n    value: function getBaseInfo(type, e, data) {\n      var target = e.target;\n      var path = xpath.fromNode(target);\n      // check gugu element\n      var gu = xpath.fromNode(document.getElementById('gu'));\n      if (path.startsWith(gu)) return null;\n      var ret = {\n        type: type,\n        path: path,\n        time: now()\n      };\n      if (data) ret.data = data;\n      return ret;\n    }\n  }]);\n  return Tracker;\n}(_base2.default), (_applyDecoratedDescriptor(_class.prototype, 'handleMouseDown', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseDown'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleMouseUp', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleMouseUp'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchStart', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchStart'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleTouchEnd', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleTouchEnd'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleScroll', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleScroll'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleFocus', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleFocus'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleBlur', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleBlur'), _class.prototype), _applyDecoratedDescriptor(_class.prototype, 'handleKeydown', [_autobindDecorator2.default], (0, _getOwnPropertyDescriptor2.default)(_class.prototype, 'handleKeydown'), _class.prototype)), _class);\nexports.default = Tracker;"
     },
     {
       "id": 72,
@@ -12448,9 +12449,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 72,
-        "building": 265,
-        "dependencies": 616
+        "factory": 81,
+        "building": 313,
+        "dependencies": 591
       },
       "failed": false,
       "errors": 0,
@@ -12486,7 +12487,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/utils/index.js",
       "profile": {
         "factory": 9,
-        "building": 727
+        "building": 750
       },
       "failed": false,
       "errors": 0,
@@ -12522,7 +12523,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
       "profile": {
         "factory": 57,
-        "building": 85,
+        "building": 84,
         "dependencies": 0
       },
       "failed": false,
@@ -12558,9 +12559,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/gugu.js",
       "profile": {
-        "factory": 74,
-        "building": 710,
-        "dependencies": 170
+        "factory": 83,
+        "building": 735,
+        "dependencies": 167
       },
       "failed": false,
       "errors": 0,
@@ -12595,9 +12596,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
       "profile": {
-        "factory": 57,
-        "building": 108,
-        "dependencies": 0
+        "factory": 58,
+        "building": 105,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -12632,8 +12633,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/toConsumableArray.js",
       "profile": {
-        "factory": 9,
-        "building": 267
+        "factory": 8,
+        "building": 250
       },
       "failed": false,
       "errors": 0,
@@ -12669,7 +12670,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/slicedToArray.js",
       "profile": {
         "factory": 75,
-        "building": 266
+        "building": 248
       },
       "failed": false,
       "errors": 0,
@@ -12705,7 +12706,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/slicedToArray.js",
       "profile": {
         "factory": 75,
-        "building": 269
+        "building": 252
       },
       "failed": false,
       "errors": 0,
@@ -12740,8 +12741,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/extends.js",
       "profile": {
-        "factory": 78,
-        "building": 265
+        "factory": 77,
+        "building": 249
       },
       "failed": false,
       "errors": 0,
@@ -12777,7 +12778,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/inherits.js",
       "profile": {
         "factory": 80,
-        "building": 264
+        "building": 248
       },
       "failed": false,
       "errors": 0,
@@ -12813,7 +12814,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/inherits.js",
       "profile": {
         "factory": 80,
-        "building": 263
+        "building": 247
       },
       "failed": false,
       "errors": 0,
@@ -12849,7 +12850,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/typeof.js",
       "profile": {
         "factory": 115,
-        "building": 263
+        "building": 245
       },
       "failed": false,
       "errors": 0,
@@ -12884,8 +12885,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/helpers/typeof.js",
       "profile": {
-        "factory": 116,
-        "building": 265
+        "factory": 115,
+        "building": 246
       },
       "failed": false,
       "errors": 0,
@@ -12920,8 +12921,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/xhrCollector.js",
       "profile": {
-        "factory": 500,
-        "building": 47
+        "factory": 477,
+        "building": 48
       },
       "failed": false,
       "errors": 0,
@@ -12956,7 +12957,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/modules/xhrCollector.js",
       "profile": {
-        "factory": 500,
+        "factory": 477,
         "building": 50
       },
       "failed": false,
@@ -12992,7 +12993,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
       "profile": {
-        "factory": 57,
+        "factory": 58,
         "building": 112
       },
       "failed": false,
@@ -13028,9 +13029,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/array/from.js",
       "profile": {
-        "factory": 49,
-        "building": 27,
-        "dependencies": 9
+        "factory": 46,
+        "building": 26,
+        "dependencies": 16
       },
       "failed": false,
       "errors": 0,
@@ -13065,9 +13066,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/get-iterator.js",
       "profile": {
-        "factory": 50,
-        "building": 26,
-        "dependencies": 10
+        "factory": 48,
+        "building": 25,
+        "dependencies": 17
       },
       "failed": false,
       "errors": 0,
@@ -13102,9 +13103,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/is-iterable.js",
       "profile": {
-        "factory": 47,
-        "building": 28,
-        "dependencies": 8
+        "factory": 48,
+        "building": 23,
+        "dependencies": 15
       },
       "failed": false,
       "errors": 0,
@@ -13139,8 +13140,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/json/stringify.js",
       "profile": {
-        "factory": 383,
-        "building": 55
+        "factory": 366,
+        "building": 56
       },
       "failed": false,
       "errors": 0,
@@ -13175,9 +13176,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/assign.js",
       "profile": {
-        "factory": 50,
+        "factory": 47,
         "building": 26,
-        "dependencies": 10
+        "dependencies": 16
       },
       "failed": false,
       "errors": 0,
@@ -13212,9 +13213,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/create.js",
       "profile": {
-        "factory": 50,
-        "building": 26,
-        "dependencies": 11
+        "factory": 49,
+        "building": 24,
+        "dependencies": 18
       },
       "failed": false,
       "errors": 0,
@@ -13249,9 +13250,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/define-property.js",
       "profile": {
-        "factory": 48,
-        "building": 27,
-        "dependencies": 8
+        "factory": 47,
+        "building": 32,
+        "dependencies": 7
       },
       "failed": false,
       "errors": 0,
@@ -13286,9 +13287,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/get-own-property-descriptor.js",
       "profile": {
-        "factory": 351,
-        "building": 56,
-        "dependencies": 27
+        "factory": 336,
+        "building": 58,
+        "dependencies": 28
       },
       "failed": false,
       "errors": 0,
@@ -13323,9 +13324,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/get-prototype-of.js",
       "profile": {
-        "factory": 352,
-        "building": 57,
-        "dependencies": 26
+        "factory": 334,
+        "building": 59,
+        "dependencies": 27
       },
       "failed": false,
       "errors": 0,
@@ -13360,8 +13361,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/keys.js",
       "profile": {
-        "factory": 383,
-        "building": 55,
+        "factory": 366,
+        "building": 58,
         "dependencies": 28
       },
       "failed": false,
@@ -13397,9 +13398,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/object/set-prototype-of.js",
       "profile": {
-        "factory": 51,
-        "building": 25,
-        "dependencies": 12
+        "factory": 50,
+        "building": 24,
+        "dependencies": 18
       },
       "failed": false,
       "errors": 0,
@@ -13434,9 +13435,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/symbol.js",
       "profile": {
-        "factory": 60,
-        "building": 24,
-        "dependencies": 5
+        "factory": 63,
+        "building": 22,
+        "dependencies": 9
       },
       "failed": false,
       "errors": 0,
@@ -13471,8 +13472,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-runtime@6.26.0@babel-runtime/core-js/symbol/iterator.js",
       "profile": {
-        "factory": 49,
-        "building": 26
+        "factory": 50,
+        "building": 24
       },
       "failed": false,
       "errors": 0,
@@ -13507,8 +13508,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_ctx.js",
       "profile": {
-        "factory": 19,
-        "building": 6
+        "factory": 21,
+        "building": 5
       },
       "failed": false,
       "errors": 0,
@@ -13543,8 +13544,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.iterator.js",
       "profile": {
-        "factory": 25,
-        "building": 5
+        "factory": 30,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -13579,7 +13580,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-keys-internal.js",
       "profile": {
-        "factory": 5,
+        "factory": 4,
         "building": 1,
         "dependencies": 0
       },
@@ -13616,7 +13617,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
       "profile": {
-        "factory": 30,
+        "factory": 29,
         "building": 25,
         "dependencies": 0
       },
@@ -13654,7 +13655,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
         "factory": 21,
-        "building": 32,
+        "building": 29,
         "dependencies": 1
       },
       "failed": false,
@@ -13690,8 +13691,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
       "profile": {
-        "factory": 30,
-        "building": 8,
+        "factory": 26,
+        "building": 6,
         "dependencies": 0
       },
       "failed": false,
@@ -13728,7 +13729,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
       "profile": {
         "factory": 29,
-        "building": 25,
+        "building": 24,
         "dependencies": 0
       },
       "failed": false,
@@ -13764,8 +13765,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
-        "building": 32
+        "factory": 21,
+        "building": 30
       },
       "failed": false,
       "errors": 0,
@@ -13801,7 +13802,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
       "profile": {
         "factory": 29,
-        "building": 25,
+        "building": 24,
         "dependencies": 0
       },
       "failed": false,
@@ -13837,8 +13838,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_iter-define.js",
       "profile": {
-        "factory": 26,
-        "building": 5,
+        "factory": 31,
+        "building": 4,
         "dependencies": 0
       },
       "failed": false,
@@ -13874,8 +13875,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.from.js",
       "profile": {
-        "factory": 30,
-        "building": 26,
+        "factory": 29,
+        "building": 25,
         "dependencies": 0
       },
       "failed": false,
@@ -13911,7 +13912,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.array.iterator.js",
       "profile": {
-        "factory": 25,
+        "factory": 30,
         "building": 5
       },
       "failed": false,
@@ -13947,8 +13948,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 21,
-        "building": 29,
+        "factory": 20,
+        "building": 28,
         "dependencies": 0
       },
       "failed": false,
@@ -13984,9 +13985,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.assign.js",
       "profile": {
-        "factory": 32,
-        "building": 23,
-        "dependencies": 20
+        "factory": 28,
+        "building": 26,
+        "dependencies": 18
       },
       "failed": false,
       "errors": 0,
@@ -14021,8 +14022,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_object-create.js",
       "profile": {
-        "factory": 30,
-        "building": 4,
+        "factory": 25,
+        "building": 5,
         "dependencies": 0
       },
       "failed": false,
@@ -14058,9 +14059,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.symbol.js",
       "profile": {
-        "factory": 22,
-        "building": 33,
-        "dependencies": 1
+        "factory": 21,
+        "building": 34,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -14095,9 +14096,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.object.set-prototype-of.js",
       "profile": {
-        "factory": 36,
-        "building": 12,
-        "dependencies": 0
+        "factory": 32,
+        "building": 20,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -14132,9 +14133,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/es6.string.iterator.js",
       "profile": {
-        "factory": 35,
-        "building": 15,
-        "dependencies": 28
+        "factory": 34,
+        "building": 8,
+        "dependencies": 37
       },
       "failed": false,
       "errors": 0,
@@ -14170,7 +14171,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/_array-includes.js",
       "profile": {
         "factory": 1,
-        "building": 387,
+        "building": 420,
         "dependencies": 0
       },
       "failed": false,
@@ -14206,8 +14207,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/get-iterator.js",
       "profile": {
-        "factory": 10,
-        "building": 11,
+        "factory": 17,
+        "building": 8,
         "dependencies": 0
       },
       "failed": false,
@@ -14243,9 +14244,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/is-iterable.js",
       "profile": {
-        "factory": 8,
-        "building": 28,
-        "dependencies": 14
+        "factory": 16,
+        "building": 25,
+        "dependencies": 12
       },
       "failed": false,
       "errors": 0,
@@ -14280,9 +14281,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/array/from.js",
       "profile": {
-        "factory": 9,
-        "building": 13,
-        "dependencies": 29
+        "factory": 17,
+        "building": 10,
+        "dependencies": 28
       },
       "failed": false,
       "errors": 0,
@@ -14317,9 +14318,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/modules/web.dom.iterable.js",
       "profile": {
-        "factory": 34,
-        "building": 18,
-        "dependencies": 0
+        "factory": 33,
+        "building": 15,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -14354,9 +14355,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/assign.js",
       "profile": {
-        "factory": 11,
-        "building": 10,
-        "dependencies": 31
+        "factory": 17,
+        "building": 11,
+        "dependencies": 27
       },
       "failed": false,
       "errors": 0,
@@ -14391,9 +14392,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/create.js",
       "profile": {
-        "factory": 11,
-        "building": 7,
-        "dependencies": 35
+        "factory": 18,
+        "building": 7
       },
       "failed": false,
       "errors": 0,
@@ -14428,9 +14428,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/define-property.js",
       "profile": {
-        "factory": 9,
-        "building": 28,
-        "dependencies": 16
+        "factory": 7,
+        "building": 26,
+        "dependencies": 14
       },
       "failed": false,
       "errors": 0,
@@ -14465,9 +14465,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/get-own-property-descriptor.js",
       "profile": {
-        "factory": 27,
-        "building": 9,
-        "dependencies": 33
+        "factory": 28,
+        "building": 10,
+        "dependencies": 29
       },
       "failed": false,
       "errors": 0,
@@ -14502,9 +14502,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/get-prototype-of.js",
       "profile": {
-        "factory": 26,
-        "building": 10,
-        "dependencies": 32
+        "factory": 28,
+        "building": 8,
+        "dependencies": 30
       },
       "failed": false,
       "errors": 0,
@@ -14540,7 +14540,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/keys.js",
       "profile": {
         "factory": 28,
-        "building": 6
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -14575,8 +14575,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/object/set-prototype-of.js",
       "profile": {
-        "factory": 12,
-        "building": 6
+        "factory": 18,
+        "building": 7,
+        "dependencies": 32
       },
       "failed": false,
       "errors": 0,
@@ -14611,8 +14612,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
       "profile": {
-        "factory": 6,
-        "building": 15
+        "factory": 10,
+        "building": 24
       },
       "failed": false,
       "errors": 0,
@@ -14647,9 +14648,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
       "profile": {
-        "factory": 6,
-        "building": 22,
-        "dependencies": 21
+        "factory": 10,
+        "building": 18,
+        "dependencies": 19
       },
       "failed": false,
       "errors": 0,
@@ -14684,8 +14685,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
       "profile": {
-        "factory": 6,
-        "building": 15
+        "factory": 10,
+        "building": 24,
+        "dependencies": 16
       },
       "failed": false,
       "errors": 0,
@@ -14720,9 +14722,9 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_core-js@2.5.7@core-js/library/fn/symbol/index.js",
       "profile": {
-        "factory": 7,
-        "building": 15,
-        "dependencies": 27
+        "factory": 10,
+        "building": 25,
+        "dependencies": 15
       },
       "failed": false,
       "errors": 0,
@@ -14758,7 +14760,7 @@
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_to-string-loader@1.1.5@to-string-loader/src/to-string.js!/Users/xuxiaomeng/work/gugu/node_modules/_css-loader@1.0.0@css-loader/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_sass-loader@7.1.0@sass-loader/lib/loader.js!/Users/xuxiaomeng/work/gugu/src/view/style.scss",
       "profile": {
         "factory": 3,
-        "building": 826
+        "building": 798
       },
       "failed": false,
       "errors": 0,
@@ -14793,8 +14795,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_css-loader@1.0.0@css-loader/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/node_modules/_sass-loader@7.1.0@sass-loader/lib/loader.js!/Users/xuxiaomeng/work/gugu/src/view/style.scss",
       "profile": {
-        "factory": 48,
-        "building": 4
+        "factory": 47,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -14829,8 +14831,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_simple-xpath-position@2.0.2@simple-xpath-position/lib/xpath.js",
       "profile": {
-        "factory": 21,
-        "building": 34
+        "factory": 20,
+        "building": 7
       },
       "failed": false,
       "errors": 0,
@@ -14865,8 +14867,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/utils.js",
       "profile": {
-        "factory": 274,
-        "building": 61
+        "factory": 258,
+        "building": 64
       },
       "failed": false,
       "errors": 0,
@@ -14901,8 +14903,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/highlightDom.js",
       "profile": {
-        "factory": 32,
-        "building": 265
+        "factory": 33,
+        "building": 247
       },
       "failed": false,
       "errors": 0,
@@ -14937,7 +14939,7 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_babel-loader@6.4.1@babel-loader/lib/index.js!/Users/xuxiaomeng/work/gugu/src/view/index.js",
       "profile": {
-        "factory": 170,
+        "factory": 168,
         "building": 14
       },
       "failed": false,
@@ -14973,8 +14975,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_simple-xpath-position@2.0.2@simple-xpath-position/lib/xpath.js",
       "profile": {
-        "factory": 14,
-        "building": 9
+        "factory": 3,
+        "building": 19
       },
       "failed": false,
       "errors": 0,
@@ -15009,8 +15011,8 @@
       "assets": [],
       "issuer": "/Users/xuxiaomeng/work/gugu/node_modules/_simple-xpath-position@2.0.2@simple-xpath-position/index.js",
       "profile": {
-        "factory": 275,
-        "building": 59
+        "factory": 256,
+        "building": 63
       },
       "failed": false,
       "errors": 0,
