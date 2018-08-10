@@ -6,6 +6,7 @@ import ResourceCollector from './modules/resourceCollector';
 import InfoCollector from './modules/infoCollector';
 import FeatureDetector from './modules/featureDetector';
 import Tracker from './modules/tracker';
+import Replayer from './modules/replayer';
 import View from './view';
 import { getUuid } from './utils';
 
@@ -24,6 +25,7 @@ export default class Gugu {
     this.infoCollector = new InfoCollector(this);
     this.featureDetector = new FeatureDetector(this);
     this.tracker = new Tracker(this);
+    this.replayer = new Replayer(this);
 
     this.view = new View(this);
   }

@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --display-error-details --inline --hot --content-base root/build --config webpack/webpack.dev.config.js",
+    "deploy": "NODE_ENV=production webpack -p --display-error-details --config webpack/webpack.depoly.config.js --profile --json > webpack-stats.json",
     "build": "rm -rf lib && babel src -d lib --copy-files",
     "watch": "rm -rf lib && babel src -d lib -w --copy-files",
     "build_test": "rm -rf test_dist && babel test -d test_dist --copy-files",

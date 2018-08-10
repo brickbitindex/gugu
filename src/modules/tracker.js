@@ -44,6 +44,7 @@ export default class Tracker extends BaseModule {
       startAt: this.startAt,
       endAt: this.endAt,
       startPos: this.startPos,
+      connectionId: this.gugu.connectionId,
     };
     this.setSelfData(payload);
   }
@@ -52,24 +53,32 @@ export default class Tracker extends BaseModule {
   handleMouseDown(e) {
     if (this.touch) return;
     const info = this.getBaseInfo('mousedown', e);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
   @autobind
   handleMouseUp(e) {
     if (this.touch) return;
     const info = this.getBaseInfo('mouseup', e);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
   @autobind
   handleTouchStart(e) {
     this.touch = true;
     const info = this.getBaseInfo('touchstart', e);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
   @autobind
   handleTouchEnd(e) {
     const info = this.getBaseInfo('touchend', e);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
   @autobind
   handleScroll(e) {
@@ -77,29 +86,40 @@ export default class Tracker extends BaseModule {
     // if (_now - this.lastScroll < 200) return;
     // this.lastScroll = _now;
     const info = this.getBaseInfo('scroll', e, [window.scrollX, window.scrollY]);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
   @autobind
   handleFocus(e) {
     if (e.target === window) return;
     const info = this.getBaseInfo('focus', e);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
   @autobind
   handleBlur(e) {
     if (e.target === window) return;
     const info = this.getBaseInfo('blur', e);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
   @autobind
   handleKeypress(e) {
     const info = this.getBaseInfo('keypress', e, e.charCode);
-    this.events.push(info);
+    if (info) {
+      this.events.push(info);
+    }
   }
 
   getBaseInfo(type, e, data) {
     const target = e.target;
     const path = xpath.fromNode(target);
+    // check gugu element
+    const gu = xpath.fromNode(document.getElementById('gu'));
+    if (path.startsWith(gu)) return null;
     const ret = {
       type,
       path,

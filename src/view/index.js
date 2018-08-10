@@ -68,9 +68,9 @@ export default class View extends BaseModule {
       this.mode = 'record';
       this.gugu.tracker.start();
     } else {
+      this.gugu.tracker.end();
       this.$panel.classList.remove('mode-record');
       this.mode = null;
-      this.gugu.tracker.end();
     }
     e.preventDefault();
     e.stopImmediatePropagation();

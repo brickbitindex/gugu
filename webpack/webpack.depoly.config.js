@@ -9,12 +9,11 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 var config = {
   context: path.join(__dirname, '..', '/'),
   entry: {
-    gugu: './lib/index',
-    remote: './pages/remote/index',
+    gugu: './src/index',
   },
   output: {
     path: path.join(__dirname, '..', '/dist'),
-    filename: '[name].js',
+    filename: '[name].min.js',
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -32,26 +31,7 @@ var config = {
       minSizeReduce: 1.5,
       moveToParents: true
     }),
-    // new CommonsChunkPlugin('vendors', 'vendors.[hash].js', Infinity),
-    new ExtractTextPlugin("[name].[hash].css"),
     new webpack.optimize.DedupePlugin(),
-    new HtmlWebpackPlugin({
-      template: './pages/remote/template.html',
-      filename: 'index.html',
-      chunks: ['remote', 'vendors'],
-      inject: 'body',
-      hash: true
-    }),
-    new HtmlWebpackPlugin({
-      template: './pages/test/template.deploy.html',
-      filename: 'test.html',
-      chunks: [],
-      inject: 'body',
-      hash: true,
-    }),
-    new CopyWebpackPlugin([
-      { from: './pages/snippet', to: 'snippet' },
-    ]),
   ],
   module: {
     loaders: [
@@ -61,8 +41,12 @@ var config = {
         loader: "babel"
       },
       {
+        test: /\.css$/,
+        loader: 'style-loader!css!postcss'
+      },
+      {
         test: /\.scss$/,
-        loader: 'to-string-loader!css-loader!autoprefixer?{browsers:["last 2 version", "> 1%"]}!sass'
+        loader: 'to-string!css!postcss!sass'
       },
       {
         test: /\.(jpe?g|png|gif)$/i,
@@ -77,8 +61,8 @@ var config = {
         loader: 'json-loader'
       },
       {
-        test: /\.reactx$/,
-        loader: 'reactx-loader'
+        test: /\.html$/,
+        loader: 'raw'
       },
     ]
   },

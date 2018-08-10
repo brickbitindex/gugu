@@ -48,3 +48,4 @@
 
 1. 注意`mouse`和`touch`
 2. https://developer.mozilla.org/zh-CN/docs/Web/API/Performance/now
+3. http://blog.inching.org/JavaScript/2014-08-19-javascript-key-event-simulate.html
