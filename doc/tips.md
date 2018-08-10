@@ -44,3 +44,7 @@
 3. `document.styleSheets[i].cssRules`在`Chorme 64`的某个版本之后，若产生CORS问题，会报错，具体Commit是这个：https://chromium.googlesource.com/chromium/src/+/a4ebe08c91e29140e700c7bae9b94f27a786d1ca，所以需要用`try...catch`来处理获得cssRule。
 4. 使用`insertAdjacentHTML`來實例化HTML。
 
+## tracker
+
+1. 注意`mouse`和`touch`
+2. https://developer.mozilla.org/zh-CN/docs/Web/API/Performance/now

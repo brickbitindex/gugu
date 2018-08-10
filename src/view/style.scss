@@ -29,10 +29,17 @@
       opacity: 1;
       pointer-events: all;
     }
+
+    #guRecord {
+      left: 80%;
+      opacity: 1;
+      pointer-events: all;
+    }
   }
 
   &.mode-select {
-    #guIcon {
+    #guIcon,
+    #guRecord {
       opacity: 0;
       pointer-events: none;
     }
@@ -40,6 +47,26 @@
     #guSelect {
       opacity: 1;
       pointer-events: all;
+    }
+  }
+
+  &.mode-record {
+    #guIcon,
+    #guSelect {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #guRecord {
+      opacity: 1;
+      pointer-events: all;
+
+      .icon-stop {
+        display: inline;
+      }
+      .icon-play {
+        display: none;
+      }
     }
   }
 
@@ -71,8 +98,15 @@
     pointer-events: all;
   }
 
-  &Select {
+  &Select,
+  &Record {
     opacity: 0;
     pointer-events: none;
+  }
+
+  &Record {
+    .icon-stop {
+      display: none;
+    }
   }
 }

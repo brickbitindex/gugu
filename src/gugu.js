@@ -5,6 +5,7 @@ import XhrCollector from './modules/xhrCollector';
 import ResourceCollector from './modules/resourceCollector';
 import InfoCollector from './modules/infoCollector';
 import FeatureDetector from './modules/featureDetector';
+import Tracker from './modules/tracker';
 import View from './view';
 import { getUuid } from './utils';
 
@@ -22,6 +23,7 @@ export default class Gugu {
     this.resourceCollector = new ResourceCollector(this);
     this.infoCollector = new InfoCollector(this);
     this.featureDetector = new FeatureDetector(this);
+    this.tracker = new Tracker(this);
 
     this.view = new View(this);
   }

@@ -30,6 +30,7 @@ export default class View extends BaseModule {
   initEvent() {
     document.getElementById('guIcon').addEventListener('click', this.toggleOpen, false);
     document.getElementById('guSelect').addEventListener('click', this.toggleSelect, false);
+    document.getElementById('guRecord').addEventListener('click', this.toggleRecord, false);
   }
 
   @autobind
@@ -55,6 +56,21 @@ export default class View extends BaseModule {
       this.mode = null;
       document.body.removeEventListener('click', this.handleClickElement, false);
       this.handleCancelSelectElement();
+    }
+    e.preventDefault();
+    e.stopImmediatePropagation();
+  }
+  @autobind
+  toggleRecord(e) {
+    if (this.mode !== 'record') {
+      this.toggleOpen(false);
+      this.$panel.classList.add('mode-record');
+      this.mode = 'record';
+      this.gugu.tracker.start();
+    } else {
+      this.$panel.classList.remove('mode-record');
+      this.mode = null;
+      this.gugu.tracker.end();
     }
     e.preventDefault();
     e.stopImmediatePropagation();
@@ -108,6 +124,7 @@ export default class View extends BaseModule {
 
   @autobind
   handleDataChange(data) {
+    if (!data) return;
     if (data.connectionId !== this.gugu.connectionId) return;
     const argv = data.command;
     if (argv.length > 0) {

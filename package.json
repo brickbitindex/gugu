@@ -74,6 +74,7 @@
   },
   "dependencies": {
     "autobind-decorator": "^2.1.0",
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "simple-xpath-position": "^2.0.2"
   }
 }
